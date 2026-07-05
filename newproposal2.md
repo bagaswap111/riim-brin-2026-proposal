@@ -18,36 +18,54 @@
 ---
 
 ## HALAMAN PENGESAHAN
-**PROPOSAL PENDANAAN RIIM KOMPETISI**
-1. **Judul Proposal** : Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
-2. **Ketua Periset** :
-   a. Nama Lengkap : Prof. Dr. Subiyanto
-   b. Jenis Kelamin : [L/P]
-   c. NIP/NIK/KTP : [NIP Ketua]
-   d. Jabatan Struktural : [Jabatan]
-   e. Jabatan Fungsional : Guru Besar/Profesor
-   f. Institusi Periset : Universitas Negeri Semarang (UNNES)
-   g. Alamat : Jl. Sekaran, Gunungpati, Semarang 50229
-   h. HP/Telepon/Faks : [No. Telp/HP]
-   i. Alamat Rumah : [Alamat Rumah]
-   j. Telpon/Faks/Email : [Email Institusi]
-3. **Mitra Riset** : [Mitra: Pengelola Kampus/Mall/PLN UID/Startup EV]
-   **Anggota Riset**
-   | No | Nama | NIP/NIK | Asal Institusi |
-   |---|---|---|---|
-    | 1 | Bagaskoro Saputro, S.Kom., M.Kom. | [NIK] | BINUS University |
-    | 2 | Mario Norman Syah, S.T., M.T. | [NIK] | UNNES |
-    | 3 | Adhe Lingga Dewi, S.Si., M.Si. | [NIK] | BINUS University |
-    | 4 | Abdurrakhman Hamid Al-Azhari | [NIK] | UNNES |
-    | 5 | Yashella Tirana, S.Kom. | [NIK] | BINUS University |
-    | 6 | Dr. Turnad Lenggo Ginta | [NIP] | BRIN / OR Energi |
-4. **Pendanaan** :
-   | No | Uraian | BRIN/LPDP (Tahun 1) | BRIN/LPDP (Tahun 2) | Sharing Mitra (Tahun 1) | Sharing Mitra (Tahun 2) | Total |
-   |---|---|---|---|---|---|---|
-   | 1 | Periode/Tahun 1 | Rp [...] | - | Rp [...] | - | Rp [...] |
-   | 2 | Periode/Tahun 2 | Rp [...] | Rp [...] | Rp [...] | Rp [...] | Rp [...] |
 
-**Menyetujui, Pimpinan Institusi Pengusul,** | **Tempat, dd-mm-yy Ketua Periset,**
+### LEMBAR PENGESAHAN
+**PROPOSAL RISET DAN INOVASI UNTUK INDONESIA MAJU (RIIM) KOMPETISI**
+
+**Tema** : Elektronika dan Informatika / Energi
+
+1. **Judul Proposal** : Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
+
+2. **Ketua Periset** :
+   a. Nama Lengkap : Prof. Dr. Subiyanto, ST, MT
+   b. NIP/NIK : 132309137
+   c. Jabatan : Guru Besar (Professor)
+   d. Institusi Periset : Universitas Negeri Semarang (UNNES)
+   e. Unit Kerja Periset : Fakultas Teknik, Program Studi Teknik Elektro
+   f. Alamat : Jl. Sekaran, Gunungpati, Semarang 50229
+   g. No. HP/WA : [No. HP/WA]
+   h. Email : subiyanto@mail.unnes.ac.id
+
+3. **Mitra Riset** : Pengelola Kampus/Mall/PLN UID/Startup EV
+   **Alamat Mitra Riset** : [Alamat Mitra]
+   **Peran Mitra Riset** : Co-funding, penyedia lahan uji coba, pengguna akhir hasil riset
+
+4. **Anggota Periset** :
+   | No | Nama | Institusi | No. HP/WA | Email |
+   |---|---|---|---|---|
+   | 1 | Bagaskoro Saputro, S.Kom., M.Kom. | BINUS University | [HP/WA] | bagaskoro.saputro@binus.ac.id |
+   | 2 | Mario Norman Syah, S.T., M.T. | UNNES | [HP/WA] | mario.norman@mail.unnes.ac.id |
+   | 3 | Adhe Lingga Dewi, S.Si., M.Si. | BINUS University | [HP/WA] | adhe.dewi@binus.ac.id |
+   | 4 | Abdurrakhman Hamid Al-Azhari | UNNES | [HP/WA] | abdurrakhman.hamid@mail.unnes.ac.id |
+   | 5 | Yashella Tirana, S.Kom. | BINUS University | [HP/WA] | yashella.tirana@binus.ac.id |
+   | 6 | Dr. Turnad Lenggo Ginta | BRIN | [HP/WA] | turnad.lenggo.ginta@brin.go.id |
+
+5. **Keluaran** :
+   | No | Uraian | Tahun 1 | Tahun 2 |
+   |---|---|---|---|
+   | 1 | Publikasi pada jurnal internasional Q3 | 1 KTI under review | 1 KTI accepted + 1 KTI under review |
+   | 2 | Paten sederhana | 1 draf paten terdaftar | 1 paten sederhana terdaftar |
+   | 3 | Prototipe | TKT 4 (fungsional di lab) | TKT 6 (terpasang & beroperasi) |
+
+6. **Pendanaan** :
+   | No | Tahapan | Usulan Anggaran | Dana Pendamping | Total Anggaran |
+   |---|---|---|---|---|
+   | 1 | Tahun 1 | Rp [...] | Rp [...] | Rp [...] |
+   | 2 | Tahun 2 | Rp [...] | Rp [...] | Rp [...] |
+
+Dengan ini menyatakan bahwa proposal yang diajukan bersifat orisinil dan belum pernah memperoleh pendanaan dari lembaga/sumber dana lain, serta tidak mengandung plagiasi.
+
+**Menyetujui, Kepala Unit Kerja / Pimpinan Institusi Pengusul,** | **Tempat, dd-mm-yy Ketua Periset,**
 ---|---
 
 ---
@@ -65,15 +83,14 @@ Indonesia menargetkan 2 juta mobil listrik dan 13 juta motor listrik pada 2030 (
 
 Penelitian Ibezim et al. (2026) menunjukkan konfigurasi solar hybrid mencapai 30-50% reduksi kebutuhan baterai dan LCOE USD 0.08-0.15/kWh. Dari sisi kebijakan, Farabi, Ginta et al. (2025) mengkonfirmasi kontribusi pengembangan energi pada reduksi emisi Indonesia.
 
-Tim periset UNNES memiliki rekam jejak terdepan: Subiyanto et al. (2026) — IBC PI-FLC fast charger 57.75 menit; Widiyawati et al. (2026) — bifacial PV gain 25-30%; Aprilianto et al. (2025) — HHO MPPT 99.53%. Dari sisi IoT, Dewi et al. (2024) telah membangun sistem monitoring udara berbasis ESP32 multi-sensor dengan cloud platform (cited 22), serta studi kalibrasi sensor MQ (Dewi et al., 2025) dan ANN untuk prediksi time-series (Dewi et al., 2024) — membuktikan kapabilitas dalam pengembangan IoT gateway, validasi sensor, dan model prediktif. Dari sisi sistem informasi dan machine learning, Tirana & Sfenrianto (2023) meneliti faktor kepuasan pengguna aplikasi platform digital, dan Tirana et al. (2026) mengembangkan model deteksi misleading visual review berbasis machine learning/image processing — relevan untuk pipeline edge-AI dan deteksi anomali visual pada SPKLU.
+Tim periset UNNES memiliki rekam jejak terdepan: Subiyanto et al. (2026) — IBC PI-FLC fast charger 57.75 menit; Widiyawati et al. (2026) — bifacial PV gain 25-30%; Aprilianto et al. (2025) — HHO MPPT 99.53%. Dari sisi IoT, Dewi et al. (2024) telah membangun sistem monitoring udara berbasis ESP32 multi-sensor dengan cloud platform, serta studi kalibrasi sensor MQ (Dewi et al., 2025) dan ANN untuk prediksi time-series (Dewi et al., 2024) — membuktikan kapabilitas dalam pengembangan IoT gateway, validasi sensor, dan model prediktif. Dari sisi sistem informasi dan machine learning, Tirana & Sfenrianto (2023) meneliti faktor kepuasan pengguna aplikasi platform digital.
 
 ### 2. Rumusan Masalah dan Hipotesis Solusi
 **Rumusan Masalah:**
 (1) Bagaimana merancang arsitektur IoT-Edge yang mengintegrasikan OCPP 1.6J, Modbus inverter, MPPT HHO, dan IBC fast charger dalam satu sistem solar hybrid?
 (2) Bagaimana mengimplementasikan pipeline edge-AI YOLOv8 dengan anonimisasi real-time untuk prediksi okupansi 15-60 menit (MAPE <15%) tanpa mengirim data biometrik ke cloud, serta menjamin kepatuhan UU PDP No. 27/2022?
 (3) Bagaimana mengintegrasikan hierarchical EMS tiga-level (PI-FLC + ANN/LSTM) dengan HHO MPPT dan smart load balancing berbasis irradiance, SoC, tarif TOU?
-(4) Bagaimana mengintegrasikan pipeline deteksi anomali visual (Tirana et al., 2026) dengan edge-AI YOLOv8 untuk meningkatkan keamanan dan keandalan sistem?
-(5) Apakah prototipe sistem layak diuji pada skala pilot TKT 5-6 di 3 lokasi parkir publik dwell-time tinggi?
+(4) Apakah prototipe sistem layak diuji pada skala pilot TKT 5-6 di 3 lokasi parkir publik dwell-time tinggi?
 
 **Hipotesis Solusi:**
 Arsitektur modular edge gateway dengan pola `OCPP/Modbus → MQTT Bridge` + YOLOv8 anonimisasi real-time akan menurunkan latensi <200ms, MAPE <15%, utilisasi solar ≥35%, dan strain puncak grid ≥20%. Integrasi IBC PI-FLC + MPPT HHO memberikan efisiensi charging >94% dan MPPT >99%. Pipeline edge 100% lokal menjamin zero biometric storage.
@@ -86,11 +103,11 @@ Kebaruan penelitian:
 2. **MPPT HHO** — 99.53% efisiensi (Aprilianto et al., 2025)
 3. **Solar PV Bifacial** — 25-30% rear gain (Widiyawati et al., 2026)
 4. **Privacy-by-Design Edge Vision** — YOLOv8 + anonimisasi real-time, metadata-only, zero biometric storage/transmission
-5. **IoT-ESP32 Multi-sensor Gateway** — Berbasis pengalaman monitoring udara IoT (Dewi et al., 2024, cited 22)
+5. **IoT-ESP32 Multi-sensor Gateway** — Berbasis pengalaman monitoring udara IoT (Dewi et al., 2024)
 6. **Sensor Calibration Methodology** — Validasi akurasi sensor untuk metering SPKLU (Dewi et al., 2025)
 7. **Predictive EMS with ANN** — Prediksi beban 15-60 menit menggunakan ANN/LSTM, didukung studi komparasi fungsi ANN (Dewi et al., 2024)
 8. **Bridge OCPP-WS → MQTT** untuk charger AC 22kW yang tidak mendukung native MQTT
-9. **Anomaly Detection Pipeline** — Deteksi misleading visual pada sistem monitoring SPKLU berbasis machine learning/image processing (Tirana et al., 2026)
+9. **Potensi Deteksi Anomali Visual** — Tim periset memiliki pengalaman dalam pengembangan model deteksi berbasis machine learning/image processing yang dapat dikembangkan untuk monitoring SPKLU
 
 ### 4. Tujuan dan Sasaran Riset
 **Tujuan Umum:** Mengembangkan prototipe CSMS interoperabel berbasis OCPP-MQTT + Edge-AI YOLOv8 untuk charger AC 22kW hybrid off-grid yang patuh privasi.
@@ -99,22 +116,47 @@ Kebaruan penelitian:
 (1) Menguji akurasi metering, stabilitas koneksi, performa load balancing, dan keamanan data di lab & lapangan
 (2) Memvalidasi pipeline AI edge terhadap akurasi prediksi, latensi inferensi, dan audit kepatuhan PDP
 (3) Mengintegrasikan IBC PI-FLC, MPPT HHO, dan solar hybrid dalam satu platform IoT-Edge
-(4) Mengembangkan pipeline deteksi anomali visual pada sistem SPKLU berbasis machine learning untuk meningkatkan keamanan
-(5) Menyusun SOP, API terbuka, dan blueprint operasional untuk hilirisasi
+(4) Menyusun SOP, API terbuka, dan blueprint operasional untuk hilirisasi
 
-**Sasaran:** TKT 3→6 dalam 2 tahun, 2 KTI Q3, 1 Paten terdaftar, 3 unit pilot, 1 pipeline deteksi anomali visual.
+**Sasaran:** TKT 3→6 dalam 2 tahun, 2 KTI Q3, 1 Paten terdaftar, 3 unit pilot.
 
 ---
 
 ## PETA JALAN DAN NILAI STRATEGIS
 | Periode | Target TKT | Kegiatan Inti | Luaran Utama |
 |---------|------------|---------------|--------------|
-| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur, CSMS Go & EMQX, YOLOv8 + anonimisasi, pipeline deteksi anomali visual, integrasi IBC + HHO MPPT, setup TimescaleDB + RLS, uji lab (QoS, akurasi billing, efisiensi MPPT/IBC) | 1 prototipe lab, 1 draf Paten, 1 KTI under review (Q3), 1 pipeline anomali visual |
+| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur, CSMS Go & EMQX, YOLOv8 + anonimisasi, integrasi IBC + HHO MPPT, setup TimescaleDB + RLS, uji lab (QoS, akurasi billing, efisiensi MPPT/IBC) | 1 prototipe lab, 1 draf Paten, 1 KTI under review (Q3) |
 | **Tahun 2 (2027)** | 5 → 6 | Instalasi 3 unit mitra, monitoring 3 bulan, validasi switching solar-grid, kalibrasi load balancing, SOP & SDK rilis | 3 unit terpasang, 1 Paten terdaftar, 2 KTI accepted/under review, 1 SOP + policy brief |
 
 **Nilai Strategis:** Riset menjawab kebutuhan SPKLU terjangkau, interoperabel, dan ramah grid. Integrasi solar hybrid + HHO MPPT + IBC menurunkan ketergantungan grid dan waktu charging. Edge-AI anonim membuka standar etis baru untuk IoT publik. Pipeline privacy-by-design menjadi referensi nasional kepatuhan UU PDP.
 
 ---
+
+## KERANGKA BERPIKIR
+
+Masalah utama yang dihadapi SPKLU AC 22kW saat ini adalah tidak adanya prediksi beban cerdas, ketergantungan penuh pada grid, serta potensi pelanggaran privasi pada sistem monitoring visual. Kerangka berpikir riset ini menghubungkan lima komponen kunci:
+
+1. **Solar Hybrid + HHO MPPT + IBC**: Panel surya + BESS sebagai sumber mandiri, dengan MPPT HHO untuk efisiensi energi maksimum dan Interleaved Buck Converter PI-FLC untuk fast charging efisien.
+2. **IoT-Edge untuk Prediksi Beban**: YOLOv8 dijalankan pada edge device (Jetson/RPi 5) untuk mendeteksi okupansi area parkir secara real-time, digunakan sebagai input prediksi beban SPKLU dan optimasi alokasi daya.
+3. **Pipeline Anonimisasi**: Seluruh data visual yang tertangkap kamera dianonimkan secara real-time (frame blurring, metadata-only) sebelum dikirim ke cloud, memastikan kepatuhan terhadap UU PDP tanpa mengorbankan fungsi prediktif.
+4. **Cloud Backend & TimescaleDB**: CSMS Go sebagai server manajemen charging, EMQX untuk broker MQTT, TimescaleDB untuk data time-series, dan Redis untuk caching, dengan Row-Level Security dan TOTP 2FA.
+5. **Potensi Deteksi Anomali Visual**: Tim memiliki pengalaman dalam pengembangan model deteksi berbasis machine learning/image processing yang dapat dieksplorasi untuk lapisan keamanan tambahan pada sistem monitoring SPKLU.
+
+Keterkaitan: Kamera → Edge AI YOLOv8 → Anonimisasi → Prediksi beban → EMS → IBC + HHO → SPKLU. Seluruh alur data dari sensor hingga cloud dirancang dengan prinsip privacy-by-design dan efisiensi energi end-to-end.
+
+```mermaid
+flowchart LR
+    A[Panel Surya + BESS] --> B[HHO MPPT]
+    B --> C[IBC PI-FLC]
+    C --> D[SPKLU AC 22kW]
+    E[Kamera] --> F[Edge AI YOLOv8]
+    F --> G[Pipeline Anonimisasi]
+    G --> H[Prediksi Beban]
+    H --> D
+    G --> I[Cloud Backend]
+    I --> J[TimescaleDB + CSMS]
+    D --> I
+```
 
 ## METODOLOGI
 Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapangan terbatas.
@@ -122,7 +164,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 **Work Packages (WP):**
 - **WP1 Arsitektur & Backend:** CSMS Go, EMQX WS→MQTT, PostgreSQL/TimescaleDB/Redis, RLS & TOTP 2FA
 - **WP2 Edge-AI & Anonimisasi:** YOLOv8 untuk deteksi okupansi, pipeline anonymisasi real-time (frame blurring, metadata-only), optimasi TensorRT/OpenVINO pada Jetson/RPi 5
-- **WP2a Deteksi Anomali Visual:** Pipeline deteksi misleading visual pada sistem monitoring SPKLU berbasis machine learning/image processing (Tirana et al., 2026), integrasi dengan YOLOv8 untuk keamanan sistem
+- **WP2a Deteksi Anomali Visual (Eksplorasi):** Studi awal potensi deteksi misleading visual pada sistem monitoring SPKLU berbasis machine learning/image processing, sebagai pengembangan riset lanjutan
 - **WP3 Integrasi Solar Hybrid + IBC + MPPT:** PV array 4-100 kWp bifacial, BESS LFP/NMC, IBC two-phase PI-FLC, MPPT HHO, hierarchical EMS tiga-level dengan ANN/LSTM untuk prediksi 15-60 menit
 - **WP4 Validasi Lab:** QoS 0/1/2, akurasi MeterValues, failover, uji beban 50 charger, audit keamanan & PDP, validasi kalibrasi sensor (metodologi Dewi et al., 2025)
 - **WP5 Pilot & Evaluasi:** Instalasi 3 unit mitra, monitoring real-time, kalibrasi revenue-share, SOP, diseminasi
@@ -167,7 +209,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | 1 | Desain Arsitektur & Setup Infrastruktur | CSMS Go, EMQX, DB schema, algoritma hybrid load balancing, desain IBC + MPPT HHO | Bulan ke-1–3 |
 | 2 | Integrasi Multi-Protokol & IBC-MPPT | Bridge OCPP-WS & Modbus→MQTT, simulator, uji IBC (ripple, efisiensi), uji MPPT HHO | Bulan ke-4–6 |
 | 3 | Pengembangan Edge-AI & Anonimisasi | YOLOv8, pipeline metadata-only, optimasi TensorRT/OpenVINO, integrasi kamera | Bulan ke-5–7 |
-| 3a | Deteksi Anomali Visual | Pipeline deteksi misleading visual, integrasi ML/image processing dengan edge-AI | Bulan ke-5–8 |
+| 3a | Deteksi Anomali Visual (Eksplorasi) | Studi awal potensi deteksi misleading visual berbasis ML/image processing untuk monitoring SPKLU | Bulan ke-5–8 |
 | 4 | Smart EMS & Prediksi ANN/LSTM | Hierarchical EMS tiga-level, ANN/LSTM prediksi 15-60 menit, load balancing | Bulan ke-6–8 |
 | 5 | Validasi Lab & Kalibrasi | QoS, akurasi billing, beban 50 charger, audit PDP, validasi kalibrasi sensor | Bulan ke-9–11 |
 | 6 | Publikasi & Paten Tahun 1 | KTI, draf paten, audit internal | Bulan ke-10–12 |
@@ -305,7 +347,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Scopus** | 12 articles, H-Index 3 |
 | **Google Scholar** | 46 articles, H-Index 5 |
 | **Email** | adhe.dewi@binus.ac.id |
-| **Publikasi Utama (2024-2026)** | Smart Air Monitoring IoT ESP32 (Procedia CS 2024, DOI: 10.1016/j.procs.2024.10.308, cited 22 — corresponding author); Sensor Calibration MQ-135/8 (Eng. Res. Express 2025 — first author); ANN Weather Prediction (ICIMTech 2024 — first author); Workload & Stress Monitoring IoT GSR (Procedia CS 2025); #DEBITAAPPS ML Diabetes (E3S 2026 — first author); Breast Cancer DNN (AIP 2026) |
+| **Publikasi Utama (2024-2026)** | Smart Air Monitoring IoT ESP32 (Procedia CS 2024, DOI: 10.1016/j.procs.2024.10.308 — corresponding author); Sensor Calibration MQ-135/8 (Eng. Res. Express 2025 — first author); ANN Weather Prediction (ICIMTech 2024 — first author); Workload & Stress Monitoring IoT GSR (Procedia CS 2025); #DEBITAAPPS ML Diabetes (E3S 2026 — first author); Breast Cancer DNN (AIP 2026) |
 
 ### 6. Yashella Tirana, S.Kom. — Anggota Periset
 | Item | Detail |
@@ -317,7 +359,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **SINTA ID** | 6998018 |
 | **Google Scholar** | https://scholar.google.com/citations?user= |
 | **Email** | yashella.tirana@binus.ac.id |
-| **Publikasi Utama (2023-2026)** | Factors on Mobile App User Satisfaction (CommIT Journal 2023, cited 8); Model Deteksi Misleading Visual Review (Hibah BINUS 2026) |
+| **Publikasi Utama (2023-2026)** | Factors on Mobile App User Satisfaction (CommIT Journal 2023); Model Deteksi Misleading Visual Review (Hibah BINUS 2026) |
 
 ### 7. Ir. Turnad Lenggo Ginta, ST, MT, PhD — Anggota Periset
 | Item | Detail |
@@ -333,13 +375,81 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 
 ---
 
-## DATA MANAGEMENT PLAN (DMP)
-- **Data yang Dikumpulkan:** Telemetri charger (OCPP 1.6J), log inverter solar (Modbus), metadata okupansi anonim, log inferensi edge, metrik utilisasi
-- **Format & Struktur:** JSON/CSV (TimescaleDB), Relational (PostgreSQL), Cache (Redis Stack). Metadata AI hanya berisi bounding-box agregat, timestamp, estimasi durasi
-- **Penyimpanan & Akses:** Cloud terenkripsi (Fly.io/Supabase Pro), backup harian, akses RBAC + Row Level Security. Tidak ada penyimpanan citra/video mentah
-- **Privasi & Kepatuhan:** Pipeline 100% di edge, zero biometric storage/transmission, plakat consent di lokasi, klirens etik riset sesuai Perka BRIN No. 22/2022 & UU PDP No. 27/2022
-- **Sharing & Retensi:** Dataset telemetri & metadata anonim dipublikasikan di Zenodo/GitHub 12 bulan pasca proyek. Data mentah (log inferensi) disimpan 3 tahun untuk audit & replikasi riset
+## SUB LAMPIRAN 2 — DATA MANAGEMENT PLAN (DMP)
+
+### 1. Metadata
+| Item | Isian |
+|------|-------|
+| **1.1 Judul Riset** | Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia |
+| **1.2 Durasi Riset** | Mulai: 01-01-2026 — Akhir: 31-12-2027 |
+| **1.3 Ketua Tim Riset** | nama: Prof. Dr. Subiyanto, ST, MT; afiliasi: Universitas Negeri Semarang; e-mail: subiyanto@mail.unnes.ac.id; no HP: [No. HP] |
+| **1.4 Subjek Riset** | Engineering, Computer and Information Sciences |
+| **1.5 Deskripsi Riset** | Riset mengembangkan prototipe SPKLU AC 22kW berbasis solar hybrid dengan prediksi beban YOLOv8, pipeline anonimisasi edge-AI, MPPT HHO, dan IBC fast charging untuk meningkatkan TKT 3→6 dalam 2 tahun |
+| **1.6 Sumber Dana Riset** | RIIM Kompetisi — BRIN/LPDP |
+
+### 2. Tipe Data
+| Jenis Data | Deskripsi | Format File |
+|------------|-----------|-------------|
+| Telemetri charger | Log OCPP 1.6J (session ID, meter start/stop, kWh, timestamp) | JSON, CSV |
+| Metadata okupansi anonim | Bounding-box agregat, timestamp, estimasi durasi parkir (tanpa citra mentah) | JSON |
+| Log inferensi edge | Frame count, objek terdeteksi per kelas, latensi inferensi, suhu GPU | CSV |
+| Log inverter solar | Data Modbus (tegangan PV, arus, daya, iradiasi) | CSV |
+| Data iradiasi | Sensor irradiance harian (W/m²) | CSV |
+| Log EMS | Switching solar/grid, SOC BESS, alokasi daya | JSON, CSV |
+| Metrik utilisasi | Durasi charging per sesi, okupansi area, throughput harian | CSV |
+
+
+### 3. Penyimpanan dan Pengamanan Data
+| Item | Isian |
+|------|-------|
+| **3.1 Tempat penyimpanan** | Layanan cloud terenkripsi (Fly.io/Supabase Pro), backup harian; Infrastruktur repositori institusi (UNNES); Tidak ada penyimpanan citra/video mentah |
+| **3.2 Waktu deposit ke RIN** | 12/2027 (maksimal 1 bulan sebelum tahun terakhir kegiatan riset) |
+
+### 4. Pengelolaan Privasi dan Kerahasiaan Data
+| Item | Isian |
+|------|-------|
+| **Data pribadi/sensitif?** | Ya — data visual kamera area parkir mengandung citra individu dan plat nomor kendaraan |
+| **Penanganan** | Anonim — pipeline 100% di edge: frame blurring + metadata-only; zero biometric storage/transmission; plakat consent di lokasi; klirens etik riset sesuai Perka BRIN No. 22/2022 & UU PDP No. 27/2022 |
 
 ---
+
+## SUB LAMPIRAN 4 — FORMAT PERAN TIM PERISET
+
+| No | Nama | Peran dalam Riset | Kompetensi Pendukung | URL Scopus |
+|----|------|-------------------|---------------------|------------|
+| 1 | Prof. Dr. Subiyanto, ST, MT | Ketua; perancang IBC PI-FLC, MPPT HHO, arsitektur sistem, integrasi power electronics dan AI | Intelligent Systems Electrical Engineering, Power Electronics, AI; Guru Besar Teknik Elektro UNNES | [Scopus] |
+| 2 | Bagaskoro Saputro, S.Kom., M.Kom. | Anggota; pengembangan backend CSMS Go, EMQX broker, REST API, TimescaleDB/PostgreSQL, Row-Level Security, TOTP 2FA | Embedded Systems, IoT Architecture, Backend Development, Cybersecurity; Dosen BINUS University | [Scopus] |
+| 3 | Mario Norman Syah, S.T., M.T. | Anggota; perancangan BESS, sizing PV, integrasi MPPT HHO dan IBC, uji lab power converter | Power Electronics, Photovoltaic Systems, Energy Storage | [Scopus] |
+| 4 | Abdurrakhman Hamid Al-Azhari | Anggota; implementasi firmware ESP32, kalibrasi sensor, uji coba komunikasi OCPP/MQTT | IoT, Embedded Systems, Sensor Integration | [Scopus] |
+| 5 | Adhe Lingga Dewi, S.Si., M.Si. | Anggota; validasi sensor dan kalibrasi metode pengukuran, analisis data time-series metrik utilisasi | IoT, Sensors, ANN, Computational Physics; Dosen BINUS University | [Scopus] |
+| 6 | Yashella Tirana, S.Kom. | Anggota; analisis faktor kepuasan pengguna dan evaluasi UX dashboard MyPLN, kontribusi pada studi awal deteksi anomali visual berbasis ML/image processing | Information Systems, User Satisfaction, ML, Image Processing; Dosen BINUS University | [Scopus] |
+| 7 | Dr. Turnad Lenggo Ginta | Anggota; advis eksternal hilirisasi dan kebijakan energi rendah karbon, analisis dampak lingkungan | Machine Learning, Welding Technology, Energy Policy; Peneliti BRIN | 26435862600 |
+
+---
+
+## SURAT PERNYATAAN AKTIF KEDINASAN
+
+Yang bertanda tangan di bawah ini:
+
+| | |
+|---|----|
+| Nama | Prof. Dr. Subiyanto, ST, MT |
+| NIP | 132309137 |
+| Jabatan | Guru Besar, Fakultas Teknik, Universitas Negeri Semarang |
+| Alamat | Jl. Sekaran, Gunungpati, Semarang 50229 |
+| No. HP/WA | [No. HP] |
+| Email | subiyanto@mail.unnes.ac.id |
+
+Dengan ini menyatakan bahwa saya aktif menjalankan tugas kedinasan sebagai Dosen/Peneliti di Universitas Negeri Semarang dan bersedia melaksanakan kegiatan riset yang berjudul:
+
+**"Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia"**
+
+sesuai dengan proposal yang diajukan dalam skema RIIM Kompetisi BRIN.
+
+Demikian surat pernyataan ini dibuat dengan sebenarnya untuk digunakan sebagaimana mestinya.
+
+| Tempat, dd-mm-yy Yang menyatakan, |
+|---|
+| <br><br><br>**Prof. Dr. Subiyanto, ST, MT**<br>NIP 132309137 |
 
 *Dokumen ini merupakan integrasi dari proposal2.md (IoT-Edge SPKLU AC 22kW + YOLOv8), hybrid-solar-panel.md (technical spec off-grid solar), dan publikasi tim periset — diformat ulang mengikuti sistematika Sublampiran I Pedoman RIIM.*

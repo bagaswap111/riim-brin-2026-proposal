@@ -1,6 +1,6 @@
 # PROPOSAL RIIM KOMPETISI 2026
 **FOKUS RISET:** Elektronika dan Informatika / Energi
-**JUDUL:** Pengembangan Hybrid Off-Grid Solar-Powered SPKLU Cerdas dengan Fast Charging Interleaved Buck Converter dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia
+**JUDUL:** Pengembangan SPKLU Cerdas Berbasis Solar Hybrid dengan MPPT HHO dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia
 
 **KETUA PERISET:** Prof. Dr. Subiyanto
 **ANGGOTA PERISET:**
@@ -18,128 +18,170 @@
 ---
 
 ## HALAMAN PENGESAHAN
-**PROPOSAL PENDANAAN RIIM KOMPETISI**
-1. **Judul Proposal** : Pengembangan Hybrid Off-Grid Solar-Powered SPKLU Cerdas dengan Fast Charging Interleaved Buck Converter dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia
-2. **Ketua Periset** :
-   a. Nama Lengkap : Prof. Dr. Subiyanto
-   b. Jenis Kelamin : [L/P]
-   c. NIP/NIK/KTP : [NIP Ketua]
-   d. Jabatan Struktural : [Jabatan]
-   e. Jabatan Fungsional : Guru Besar/Profesor
-   f. Institusi Periset : Universitas Negeri Semarang (UNNES)
-   g. Alamat : Jl. Sekaran, Gunungpati, Semarang 50229
-   h. HP/Telepon/Faks : [No. Telp/HP]
-   i. Alamat Rumah : [Alamat Rumah]
-   j. Telpon/Faks/Email : [Email Institusi]
-3. **Mitra Riset** : [Mitra: PLN / Pengelola Parkir Publik / Startup EV]
-   **Anggota Riset**
-   | No | Nama | NIP/NIK | Asal Institusi |
-   |---|---|---|---|
-    | 1 | Bagaskoro Saputro, S.Kom., M.Kom. | [NIK] | BINUS University |
-    | 2 | Mario Norman Syah, S.T., M.T. | [NIK] | UNNES |
-    | 3 | Adhe Lingga Dewi, S.Si., M.Si. | [NIK] | BINUS University |
-    | 4 | Abdurrakhman Hamid Al-Azhari | [NIK] | UNNES |
-    | 5 | Yashella Tirana, S.Kom. | [NIK] | BINUS University |
-    | 6 | Dr. Turnad Lenggo Ginta | [NIP] | BRIN / OR Energi |
-4. **Pendanaan** :
-   | No | Uraian | BRIN/LPDP (Tahun 1) | BRIN/LPDP (Tahun 2) | Sharing Mitra (Tahun 1) | Sharing Mitra (Tahun 2) | Total |
-   |---|---|---|---|---|---|---|
-   | 1 | Periode/Tahun 1 | Rp [...] | - | Rp [...] | - | Rp [...] |
-   | 2 | Periode/Tahun 2 | Rp [...] | Rp [...] | Rp [...] | Rp [...] | Rp [...] |
 
-**Menyetujui, Pimpinan Institusi Pengusul,** | **Tempat, dd-mm-yy Ketua Periset,**
+### LEMBAR PENGESAHAN
+**PROPOSAL RISET DAN INOVASI UNTUK INDONESIA MAJU (RIIM) KOMPETISI**
+
+**Tema** : Elektronika dan Informatika / Energi
+
+1. **Judul Proposal** : Pengembangan SPKLU Cerdas Berbasis Solar Hybrid dengan MPPT HHO dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia
+
+2. **Ketua Periset** :
+   a. Nama Lengkap : Prof. Dr. Subiyanto, ST, MT
+   b. NIP/NIK : 132309137
+   c. Jabatan : Guru Besar (Professor)
+   d. Institusi Periset : Universitas Negeri Semarang (UNNES)
+   e. Unit Kerja Periset : Fakultas Teknik, Program Studi Teknik Elektro
+   f. Alamat : Jl. Sekaran, Gunungpati, Semarang 50229
+   g. No. HP/WA : [No. HP/WA]
+   h. Email : subiyanto@mail.unnes.ac.id
+
+3. **Mitra Riset** : PLN / Pengelola Parkir Publik / Startup EV
+   **Alamat Mitra Riset** : [Alamat Mitra]
+   **Peran Mitra Riset** : Co-funding, penyedia lahan uji coba, pengguna akhir hasil riset
+
+4. **Anggota Periset** :
+   | No | Nama | Institusi | No. HP/WA | Email |
+   |---|---|---|---|---|
+   | 1 | Bagaskoro Saputro, S.Kom., M.Kom. | BINUS University | [HP/WA] | bagaskoro.saputro@binus.ac.id |
+   | 2 | Mario Norman Syah, S.T., M.T. | UNNES | [HP/WA] | mario.norman@mail.unnes.ac.id |
+   | 3 | Adhe Lingga Dewi, S.Si., M.Si. | BINUS University | [HP/WA] | adhe.dewi@binus.ac.id |
+   | 4 | Abdurrakhman Hamid Al-Azhari | UNNES | [HP/WA] | abdurrakhman.hamid@mail.unnes.ac.id |
+   | 5 | Yashella Tirana, S.Kom. | BINUS University | [HP/WA] | yashella.tirana@binus.ac.id |
+   | 6 | Dr. Turnad Lenggo Ginta | BRIN | [HP/WA] | turnad.lenggo.ginta@brin.go.id |
+
+5. **Keluaran** :
+   | No | Uraian | Tahun 1 | Tahun 2 |
+   |---|---|---|---|
+   | 1 | Publikasi pada jurnal internasional Q3 | 1 KTI under review | 1 KTI accepted + 1 KTI under review |
+   | 2 | Paten sederhana | 1 draf paten terdaftar | 1 paten sederhana terdaftar |
+   | 3 | Prototipe | TKT 4 (fungsional di lab) | TKT 6 (terpasang & beroperasi) |
+
+6. **Pendanaan** :
+   | No | Tahapan | Usulan Anggaran | Dana Pendamping | Total Anggaran |
+   |---|---|---|---|---|
+   | 1 | Tahun 1 | Rp [...] | Rp [...] | Rp [...] |
+   | 2 | Tahun 2 | Rp [...] | Rp [...] | Rp [...] |
+
+Dengan ini menyatakan bahwa proposal yang diajukan bersifat orisinil dan belum pernah memperoleh pendanaan dari lembaga/sumber dana lain, serta tidak mengandung plagiasi.
+
+**Menyetujui, Kepala Unit Kerja / Pimpinan Institusi Pengusul,** | **Tempat, dd-mm-yy Ketua Periset,**
 ---|---
 
 ---
 
 ## ABSTRAK
-Penelitian ini mengembangkan prototipe SPKLU hybrid off-grid yang mengintegrasikan solar PV (4-100 kWp), BESS, Interleaved Buck Converter (IBC) dengan PI-FLC untuk fast charging 72V/20A, serta konektivitas IoT-Cloud yang terintegrasi MyPLN. Permasalahan strategis yang diangkat adalah ketergantungan pada grid PLN (78% SPKLU di Jawa), fragmentasi sistem pembayaran, dan belum adanya SPKLU hybrid yang mengintegrasikan MPPT berbasis HHO (efisiensi 99.53%) dengan IBC fast charger (charging 57.75 menit 0-100% SoC) dalam satu platform IoT. Solusi yang diusulkan mencakup: (1) arsitektur IoT berbasis ESP32 dengan konektivitas WiFi/4G dan protokol OCPP 1.6J/MQTT, (2) integrasi sistem backend cloud dengan MyPLN untuk autentikasi dan pembayaran, (3) smart EMS tiga-level dengan prediksi beban 15-60 menit menggunakan ANN/LSTM, serta (4) skema bisnis dual revenue (charging + advertising). Penelitian memperkuat integrasi dengan publikasi terkini tim periset pada fast charger E2W (Subiyanto et al., 2026; DOI: 10.14313/jamris-2026-030), bifacial PV modeling (Widiyawati et al., 2026; DOI: 10.23960/jtepl.v15i2.510-524), HHO MPPT (Aprilianto et al., 2025; DOI: 10.1109/ISMEE68179.2025.11473059), IoT sensor systems (Dewi et al., 2024; DOI: 10.1016/j.procs.2024.10.308), dan kebijakan energi rendah karbon (Farabi, Ginta et al., 2025; DOI: 10.32479/ijeep.18292). Target luaran: prototipe TKT 4→6 dalam 2 tahun, 2 publikasi Q3, 2 paten sederhana, dataset telemetri publik, dan 3 unit pilot di lokasi parkir publik.
-**Kata Kunci:** SPKLU, Solar Hybrid, Interleaved Buck Converter, HHO MPPT, IoT, ESP32, MyPLN, OCPP 1.6J, Fast Charging, TKT 3-6
+Penelitian ini mengembangkan SPKLU cerdas berbasis solar hybrid yang terintegrasi dengan aplikasi MyPLN untuk mendukung ekosistem kendaraan listrik di Indonesia. Permasalahan strategis yang diangkat meliputi: (1) ketergantungan SPKLU pada grid PLN dan fragmentasi sistem pembayaran digital, (2) rendahnya utilisasi SPKLU akibat belum optimalnya pemanfaatan energi surya mandiri, dan (3) belum adanya SPKLU off-grid yang mengintegrasikan MPPT HHO dengan IoT gateway dan ekosistem MyPLN. Solusi yang diusulkan mencakup: panel surya bifacial + BESS sebagai sumber daya mandiri dengan MPPT HHO untuk efisiensi penangkapan energi maksimum; IoT gateway ESP32 dengan protokol OCPP 1.6J/MQTT dan konektivitas WiFi/4G LTE; sistem backend cloud dengan PostgreSQL/TimescaleDB; integrasi API MyPLN untuk autentikasi dan pembayaran digital; serta aplikasi tablet kiosk dengan model bisnis dual revenue (charging fee + iklan digital). Penelitian diperkuat oleh publikasi tim pada HHO MPPT (Aprilianto et al., 2025), bifacial PV (Widiyawati et al., 2026), IoT sensor systems (Dewi et al., 2024), analisis kepuasan pengguna platform digital (Tirana & Sfenrianto, 2023), dan kebijakan energi rendah karbon (Farabi, Ginta et al., 2025). Target luaran: prototipe TKT 4→6 dalam 2 tahun, 2 publikasi Q3, 1 paten sederhana, 3 unit pilot di lokasi parkir publik.
+**Kata Kunci:** SPKLU, Solar Hybrid, MPPT HHO, IoT, ESP32, MyPLN, OCPP 1.6J, Pembayaran Digital, TKT 3-6
 
 ---
 
 ## PENDAHULUAN
 
 ### 1. Latar Belakang
-Indonesia berkomitmen menurunkan emisi GRK 29-41% pada 2030 (Perpres 55/2019). Sektor transportasi menyumbang 24% emisi CO2 global. Target 2 juta mobil listrik dan 13 juta motor listrik pada 2030 membutuhkan infrastruktur SPKLU yang masif, namun 78% SPKLU terkonsentrasi di Jawa dengan rasio 1:150 terhadap kendaraan listrik (Kementerian ESDM, 2025). SPKLU eksisting mayoritas DC fast charging dengan CAPEX tinggi dan belum mengintegrasikan sumber energi terbarukan mandiri.
+Indonesia berkomitmen menurunkan emisi GRK 29-41% pada 2030 (Perpres 55/2019). Sektor transportasi menyumbang 24% emisi CO2 global. Target 2 juta mobil listrik dan 13 juta motor listrik pada 2030 membutuhkan infrastruktur SPKLU yang masif, namun hingga 2025 jumlah SPKLU baru mencapai 1.200 unit dengan 78% terkonsentrasi di Jawa (Kementerian ESDM, 2025). SPKLU eksisting mayoritas bergantung penuh pada grid PLN dan belum mengintegrasikan sumber energi terbarukan mandiri serta sistem pembayaran digital terpadu.
 
-Penelitian Ibezim et al. (2026) menunjukkan konfigurasi solar hybrid mencapai 30-50% reduksi kebutuhan baterai dan LCOE USD 0.08-0.15/kWh — 15-25% lebih rendah dari sistem single-source. Pasar off-grid solar EV charging global bernilai USD 512 juta (2024) dan diproyeksikan USD 2.31 miliar (2033, CAGR 18.4%).
+PLN sebagai pemilik pangsa pasar SPKLU terbesar (73%) telah mengembangkan aplikasi MyPLN dengan lebih dari 10 juta pengguna. Namun, integrasi SPKLU dengan MyPLN masih terbatas dan belum mencakup SPKLU berbasis solar hybrid. Di sisi lain, perkembangan teknologi MPPT dan panel surya membuka peluang pengembangan SPKLU off-grid yang mandiri energi.
 
-Tim periset UNNES telah menghasilkan publikasi terdepan di bidang ini. Subiyanto et al. (2026) mengembangkan IBC PI-FLC fast charger dengan charging time 57.75 menit — tiga kali lebih cepat dari PID CC-CV konvensional. Widiyawati et al. (2026) memvalidasi bifacial PV gain 25-30% melalui ray tracing. Aprilianto et al. (2025) mencapai efisiensi MPPT 99.53% menggunakan HHO algorithm.
+Penelitian Ibezim et al. (2026) menunjukkan konfigurasi solar hybrid mencapai 30-50% reduksi kebutuhan baterai dan LCOE USD 0.08-0.15/kWh. Pasar off-grid solar EV charging global bernilai USD 512 juta (2024) dan diproyeksikan USD 2.31 miliar (2033, CAGR 18.4%).
 
-Dari sisi IoT dan sensor, Dewi et al. (2024) telah mengimplementasikan sistem monitoring berbasis ESP32 dengan multi-sensor MQ dan DHT11 yang terintegrasi cloud platform, serta studi kalibrasi sensor MQ-135/MQ-8 untuk CO2 dan H2 (Dewi et al., 2025) — memberikan dasar pengalaman dalam pengembangan IoT gateway dan validasi sensor untuk sistem SPKLU. Komparasi fungsi aktivasi ANN untuk prediksi time-series (Dewi et al., 2024) juga relevan untuk pengembangan EMS prediktif.
+Tim periset UNNES memiliki rekam jejak yang kuat di bidang ini, termasuk publikasi terdepan di bidang power electronics dan konversi energi seperti pengembangan fast charger E2W berbasis intelligent control (Subiyanto et al., 2026) dan pengendali PID untuk DC-DC converter (Syah et al., 2024). Widiyawati et al. (2026) memvalidasi bifacial PV gain 25-30% melalui ray tracing. Aprilianto et al. (2025) mencapai efisiensi MPPT 99.53% menggunakan HHO algorithm, mengungguli P&O dan INC konvensional.
 
-Dari sisi pengalaman pengguna dan sistem informasi, Tirana & Sfenrianto (2023) mengidentifikasi faktor-faktor kepuasan pengguna aplikasi MyIndihome — platform serupa dengan MyPLN — menggunakan SEM-PLS dengan 417 responden, menunjukkan bahwa information quality, system quality, ease of use, dan chatbot effectiveness berpengaruh signifikan. Hal ini menjadi dasar pengembangan antarmuka pengguna MyPLN, chatbot layanan pelanggan, serta evaluasi kualitas sistem pada SPKLU terintegrasi.
+Dari sisi IoT dan sensor, Dewi et al. (2024) telah mengimplementasikan sistem monitoring berbasis ESP32 dengan multi-sensor yang terintegrasi cloud platform, serta studi kalibrasi sensor (Dewi et al., 2025) — memberikan dasar pengalaman dalam pengembangan IoT gateway dan validasi sensor untuk sistem SPKLU.
 
-Dari konteks kebijakan, Farabi, Ginta et al. (2025) mengkonfirmasi bahwa pengembangan energi dan kebijakan finansial berkontribusi signifikan pada reduksi emisi di Indonesia, memperkuat justifikasi investasi infrastruktur charging berbasis energi terbarukan. Tirana & Sfenrianto (2023) memberikan kontribusi dari sisi analisis faktor kepuasan pengguna platform digital — relevan untuk pengembangan antarmuka MyPLN dan chatbot service yang meningkatkan adopsi sistem charging.
+Dari sisi pengalaman pengguna, Tirana & Sfenrianto (2023) mengidentifikasi faktor-faktor kepuasan pengguna aplikasi platform digital menggunakan SEM-PLS dengan 417 responden, menunjukkan bahwa information quality, system quality, ease of use, dan chatbot effectiveness berpengaruh signifikan — relevan untuk pengembangan antarmuka MyPLN dan chatbot layanan SPKLU.
+
+Dari konteks kebijakan, Farabi, Ginta et al. (2025) mengkonfirmasi bahwa pengembangan energi dan kebijakan finansial berkontribusi signifikan pada reduksi emisi di Indonesia, memperkuat justifikasi investasi infrastruktur charging berbasis energi terbarukan.
 
 ### 2. Rumusan Masalah dan Hipotesis Solusi
 **Rumusan Masalah:**
-(1) Bagaimana merancang SPKLU hybrid off-grid yang mengintegrasikan solar PV (4-100 kWp), BESS, IBC PI-FLC fast charger, MPPT HHO, dan IoT gateway ESP32 dalam satu sistem terpadu?
-(2) Bagaimana mengimplementasikan MPPT HHO (99.53% efisiensi) dan IBC PI-FLC (57.75 menit fast charging) pada SPKLU komersial yang terintegrasi MyPLN?
-(3) Bagaimana mengembangkan smart EMS tiga-level dengan prediksi beban ANN/LSTM 15-60 menit yang mempertimbangkan irradiance, SoC, tarif TOU, dan okupansi?
-(4) Bagaimana mengembangkan sistem antarmuka dan chatbot layanan yang memenuhi kebutuhan kepuasan pengguna berdasarkan faktor-faktor yang teridentifikasi pada platform digital serupa (Tirana & Sfenrianto, 2023)?
-(5) Bagaimana memvalidasi performa sistem di lokasi parkir publik dwell-time tinggi dengan skema bisnis dual revenue?
+(1) Bagaimana merancang SPKLU solar hybrid yang mengintegrasikan panel surya bifacial, BESS, MPPT HHO, IoT gateway ESP32, dan ekosistem MyPLN dalam satu sistem terpadu?
+(2) Bagaimana mengimplementasikan MPPT HHO pada sistem solar hybrid SPKLU untuk optimalisasi penangkapan energi surya dalam berbagai kondisi iradiasi?
+(3) Bagaimana mengembangkan sistem backend cloud yang terintegrasi dengan API MyPLN untuk autentikasi dan pembayaran digital?
+(4) Bagaimana merancang model bisnis dual revenue (charging fee dan iklan digital) yang sustainable untuk SPKLU solar hybrid di Indonesia?
+(5) Bagaimana mengevaluasi faktor kepuasan pengguna terhadap platform SPKLU terintegrasi MyPLN?
 
 **Hipotesis Solusi:**
-Arsitektur modular berbasis ESP32 + edge AI dengan protokol OCPP 1.6J/MQTT, dikombinasikan IBC PI-FLC (ripple <12%, efisiensi >94%) dan MPPT HHO (99.53%), akan menurunkan waktu charging >65% vs konvensional, meningkatkan utilisasi solar ≥35%, dan menurunkan strain puncak grid ≥20% — dengan akurasi billing ±1% dan uptime sistem >99%.
+Arsitektur modular berbasis ESP32 + solar hybrid + MPPT HHO akan menghasilkan SPKLU dengan utilisasi solar ≥35%, penghematan LCOE 15-25% dibanding grid-only, uptime >98%, dan akurasi billing ±1%. Model dual revenue mencapai BEP <12 bulan per unit.
 
 ### 3. State of the Art dan Kebaruan
-Studi terkini menunjukkan CSMS komersial masih tertutup (vendor lock-in), charger AC/DC konvensional belum mengadopsi IBC dengan PI-FLC untuk fast charging E2W, dan MPPT masih menggunakan P&O/INC konvensional (efisiensi <95%). Integrasi sistem IoT-Cloud dengan MyPLN untuk autentikasi dan pembayaran terpadu juga belum ada di pasar.
+Studi terkini menunjukkan SPKLU di Indonesia masih bergantung penuh pada grid, MPPT konvensional (P&O/INC) memiliki efisiensi <95%, dan belum ada platform yang mengintegrasikan solar hybrid SPKLU dengan MyPLN secara end-to-end.
 
 Kebaruan penelitian ini:
-1. **IBC PI-FLC Fast Charger** — Topologi two-phase IBC dengan PI-FLC, charging 0-100% dalam 57.75 menit, ripple cancellation <12% (Subiyanto et al., 2026)
-2. **MPPT HHO** — Efisiensi 99.53%, outperform P&O, INC, GA (Aprilianto et al., 2025)
-3. **Solar PV Bifacial** — Gain 25-30% rear-side, konfigurasi checkerboard (Widiyawati et al., 2026)
-4. **IoT-Cloud Architecture** — ESP32 multi-sensor gateway dengan cloud pipeline real-time, berbasis pengalaman monitoring udara IoT (Dewi et al., 2024) dan kalibrasi sensor akurat (Dewi et al., 2025)
-5. **Predictive EMS** — ANN/LSTM untuk prediksi beban 15-60 menit dengan input irradiance, SoC, TOU, okupansi
-6. **MyPLN Integration** — Autentikasi dan pembayaran terpadu dengan skema dual revenue, didukung oleh analisis faktor kepuasan pengguna dan kualitas sistem informasi (Tirana & Sfenrianto, 2023)
-7. **User Experience & Chatbot** — Evaluasi user experience dashboard MyPLN dan pengembangan chatbot untuk helpdesk SPKLU berbasis model kepuasan pengguna (Tirana & Sfenrianto, 2023)
+1. **MPPT HHO pada SPKLU Solar Hybrid** — Efisiensi 99.53%, outperform P&O, INC, GA (Aprilianto et al., 2025); pertama kali diimplementasikan pada SPKLU publik di Indonesia
+2. **Solar PV Bifacial untuk SPKLU** — Gain 25-30% rear-side, konfigurasi optimal untuk area parkir (Widiyawati et al., 2026)
+3. **IoT-Cloud Architecture** — ESP32 multi-sensor gateway dengan cloud pipeline real-time (Dewi et al., 2024)
+4. **Integrasi MyPLN End-to-End** — Autentikasi dan pembayaran digital via API MyPLN dengan OAuth 2.0, pertama untuk SPKLU solar hybrid di Indonesia
+5. **Arsitektur Backend Open-Source** — CSMS dengan PostgreSQL/TimescaleDB/EMQX, interoperabilitas multi-vendor
+6. **Model Dual Revenue** — Charging fee + iklan digital kontekstual, dioptimasi untuk dwell time 45-90 menit
+7. **UX Platform Terintegrasi** — Antarmuka MyPLN dan chatbot berbasis faktor kepuasan pengguna (Tirana & Sfenrianto, 2023)
 
 ### 4. Tujuan dan Sasaran Riset
-**Tujuan Umum:** Mengembangkan prototipe SPKLU hybrid off-grid dengan IBC fast charger, MPPT HHO, dan IoT terintegrasi MyPLN yang siap hilirisasi.
+**Tujuan Umum:** Mengembangkan prototipe SPKLU cerdas berbasis solar hybrid dengan MPPT HHO dan IoT terintegrasi MyPLN yang siap hilirisasi.
 
 **Tujuan Khusus:**
-(1) Merancang dan menguji integrasi IBC PI-FLC dengan MPPT HHO pada SPKLU hybrid 4-100 kWp
+(1) Merancang sistem solar hybrid SPKLU dengan panel surya bifacial, BESS, dan MPPT HHO
 (2) Mengembangkan dan memvalidasi IoT gateway ESP32 + cloud backend dengan protokol OCPP/MQTT dan integrasi MyPLN
-(3) Mengimplementasikan smart EMS tiga-level dengan prediksi ANN/LSTM dan load balancing
+(3) Mengimplementasikan smart EMS dengan prediksi beban berbasis ANN/LSTM dan load balancing
 (4) Mengembangkan antarmuka pengguna dan chatbot layanan SPKLU berbasis faktor kepuasan pengguna platform digital
 (5) Memvalidasi performa sistem di 3 lokasi parkir publik dwell-time tinggi
 
-**Sasaran:** Peningkatan TKT 3→6 dalam 2 tahun, 2 publikasi Q3, 2 paten sederhana, 3 unit pilot, 1 dashboard UX teruji.
+**Sasaran:** Peningkatan TKT 3→6 dalam 2 tahun, 2 publikasi Q3, 1 paten sederhana, 3 unit pilot.
 
 ---
 
 ## PETA JALAN DAN NILAI STRATEGIS
 | Periode | Target TKT | Kegiatan Inti | Luaran Utama |
 |---------|------------|---------------|--------------|
-| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur hybrid solar + IBC, pengembangan firmware ESP32 gateway, integrasi MPPT HHO, setup cloud backend & MyPLN API, uji lab IBC (efisiensi, ripple), uji MPPT, validasi sensor via metode kalibrasi (Dewi et al., 2025), evaluasi UX dashboard MyPLN & chatbot (Tirana & Sfenrianto, 2023) | 1 prototipe lab fungsional, 1 draf Paten IBC-EMS, 1 KTI under review (Q3), 1 laporan UX |
-| **Tahun 2 (2027)** | 5 → 6 | Instalasi 3 unit di mitra, monitoring 3 bulan, validasi switching solar-grid, kalibrasi revenue-share, penyusunan SOP, rilis dataset, evaluasi kepuasan pengguna | 3 unit terpasang & operasional, 1 Paten terdaftar, 1 KTI accepted + 1 under review, 1 SOP teknis, 1 policy brief UX |
+| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur solar hybrid + MPPT HHO, pengembangan firmware ESP32 gateway, setup cloud backend & MyPLN API, uji lab MPPT (efisiensi), validasi sensor (Dewi et al., 2025), evaluasi UX dashboard MyPLN & chatbot (Tirana & Sfenrianto, 2023) | 1 prototipe lab fungsional, 1 draf Paten solar-MyPLN, 1 KTI under review (Q3), 1 laporan UX |
+| **Tahun 2 (2027)** | 5 → 6 | Instalasi 3 unit di mitra, monitoring 3 bulan, validasi switching solar-grid, kalibrasi revenue-share, penyusunan SOP, rilis dataset, evaluasi kepuasan pengguna | 3 unit terpasang & operasional, 1 Paten terdaftar, 1 KTI accepted + 1 under review, 1 SOP teknis, 1 policy brief |
 
-**Nilai Strategis:** Riset ini menjawab kebutuhan nasional akan infrastruktur SPKLU yang terjangkau, mandiri energi, dan interoperabel. Integrasi solar hybrid + IBC fast charging menurunkan ketergantungan grid dan waktu charging, sementara integrasi MyPLN mempercepat adopsi melalui kemudahan pembayaran. Skema dual revenue menawarkan keberlanjutan bisnis. Hasil riset siap diadopsi oleh operator swasta, pengelola properti, dan PLN.
+**Nilai Strategis:** Riset ini menjawab kebutuhan nasional akan infrastruktur SPKLU yang terjangkau, mandiri energi, dan interoperabel. Integrasi solar hybrid + MPPT HHO menurunkan ketergantungan grid, sementara MyPLN mempercepat adopsi melalui kemudahan pembayaran. Skema dual revenue menawarkan keberlanjutan bisnis.
 
 ---
+
+## KERANGKA BERPIKIR
+
+Masalah utama yang dihadapi infrastruktur SPKLU di Indonesia adalah ketergantungan pada grid listrik, belum optimalnya pemanfaatan energi surya, serta fragmentasi sistem pembayaran digital. Kerangka berpikir riset ini didasarkan pada keterkaitan antara empat komponen utama:
+
+1. **Solar Hybrid + MPPT HHO**: Panel surya bifacial + BESS sebagai sumber daya mandiri, dengan MPPT HHO untuk optimalisasi penangkapan energi surya dalam berbagai kondisi iradiasi (Aprilianto et al., 2025).
+2. **IoT Gateway & MyPLN**: ESP32 sebagai gateway IoT dengan protokol OCPP/MQTT, terhubung ke backend cloud dan API MyPLN untuk pembayaran digital, monitoring real-time, dan chatbot layanan pengguna.
+3. **Cloud Backend**: CSMS dengan PostgreSQL/TimescaleDB, EMQX MQTT broker, REST API, dan integrasi OAuth 2.0 MyPLN.
+4. **Smart EMS**: Sistem manajemen energi dengan prediksi beban ANN/LSTM untuk load balancing dan alokasi daya optimal antara panel surya, BESS, dan SPKLU.
+
+Keterkaitan: Panel surya → MPPT HHO → BESS → SPKLU → IoT gateway → MyPLN → Pengguna. Setiap subsistem divalidasi secara bertahap dari lab ke lapangan, dengan integrasi penuh pada TKT 6.
+
+```mermaid
+flowchart LR
+    A[Panel Surya Bifacial] --> B[MPPT HHO]
+    B --> C[BESS LFP/NMC]
+    C --> D[SPKLU AC]
+    D --> E[IoT Gateway ESP32]
+    E --> F[Cloud Backend]
+    F --> G[MyPLN API\nAuth & Payment]
+    F --> H[Tablet Kiosk\nIklan Digital]
+```
 
 ## METODOLOGI
 Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapangan terbatas.
 
 **Work Packages (WP):**
-- **WP1 Perancangan Sistem Hybrid Solar + IBC:** Desain PV array 4-100 kWp dengan bifacial gain 25-30%, BESS LFP/NMC 48V, IBC two-phase 20-50 kHz dengan PI-FLC, MPPT HHO 99.53%
-- **WP2 Pengembangan IoT Gateway & Cloud:** Firmware ESP32 untuk multi-sensor (arus, tegangan, irradiance, suhu), protokol OCPP 1.6J / MQTT, backend Go, PostgreSQL/TimescaleDB, integrasi API MyPLN
+- **WP1 Perancangan Sistem Solar Hybrid + MPPT HHO:** Desain PV array bifacial, BESS LFP/NMC, implementasi MPPT HHO pada kontroler surya, sizing dan simulasi energi
+- **WP2 Pengembangan IoT Gateway & Cloud:** Firmware ESP32 untuk multi-sensor (arus, tegangan, iradiasi, suhu), protokol OCPP 1.6J / MQTT, backend Go, PostgreSQL/TimescaleDB, integrasi API MyPLN
 - **WP2a UX MyPLN & Chatbot:** Evaluasi UX dashboard MyPLN berbasis SEM-PLS (Tirana & Sfenrianto, 2023), pengembangan chatbot helpdesk SPKLU, analisis faktor kepuasan pengguna
-- **WP3 Smart EMS & Prediksi Beban:** Algoritma ANN/LSTM untuk prediksi 15-60 menit, hierarchical PI-FLC kontrol tiga-level, load balancing berbasis irradiance + SoC + TOU
-- **WP4 Validasi Lab & Kalibrasi:** Uji QoS (latensi <200ms), akurasi metering ±1% (berbasis metodologi kalibrasi sensor — Dewi et al., 2025), efisiensi IBC >94%, ripple <12%, MPPT efisiensi >99%
+- **WP3 Smart EMS & Prediksi Beban:** Algoritma ANN/LSTM untuk prediksi beban, load balancing berbasis iradiasi + SoC + TOU
+- **WP4 Validasi Lab & Kalibrasi:** Uji QoS (latensi <200ms), akurasi metering ±1% (Dewi et al., 2025), efisiensi MPPT HHO, uji switching solar-grid
 - **WP5 Pilot & Diseminasi:** Instalasi 3 unit, monitoring 3 bulan, analisis utilisasi, penyusunan SOP, publikasi dan paten
 
-**Detail Metodologi Tahun 1:** Fokus pada desain arsitektur, pengembangan firmware gateway, integrasi IBC-MPPT, dan validasi algoritma di lingkungan terkendali. Data dikumpulkan melalui simulator OCPP, energy logger lab, dan data logger irradiance. Teknik analisis: compliance testing OCPP 1.6J, perhitungan efisiensi konverter, MAPE prediksi, audit keamanan, dan analisis LCOE.
+**Detail Metodologi Tahun 1:** Fokus pada desain arsitektur solar hybrid, implementasi MPPT HHO, pengembangan firmware gateway, dan validasi di lingkungan terkendali. Data dikumpulkan melalui simulator PV, energy logger lab, dan data logger iradiasi.
 
-**Teknik Pengumpulan Data:** Telemetri charger (MeterValues, StatusNotification), log BMS, data irradiance solar, log inferensi edge, data transaksi MyPLN.
-**Teknik Analisis:** Efisiensi konversi >94%, MAPE prediksi beban <15%, akurasi kWh ±1%, uptime ≥95%.
+**Teknik Pengumpulan Data:** Log BMS, data iradiasi solar, telemetri charger (MeterValues, StatusNotification), data transaksi MyPLN, metrik utilisasi, hasil kuesioner kepuasan pengguna.
+**Teknik Analisis:** Efisiensi MPPT >99%, MAPE prediksi beban <15%, akurasi kWh ±1%, uptime ≥95%.
 
 ---
 
 ## JANGKA WAKTU PELAKSANAAN RISET
-24 bulan (2 tahun), terbagi dalam 2 periode evaluasi tahunan. Jangka waktu disesuaikan dengan roadmap peningkatan TKT 3→6.
+24 bulan (2 tahun), terbagi dalam 2 periode evaluasi tahunan.
 
 ---
 
@@ -147,13 +189,13 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | Luaran | Status Luaran Tahun 1 | Status Luaran Tahun 2 |
 |--------|----------------------|----------------------|
 | Jurnal Internasional (min. Q3) | 1 KTI under review | 1 KTI accepted + 1 KTI under review |
-| Kekayaan Intelektual | 1 draf Paten Sederhana (IBC + Hybrid EMS) | 1 Paten Sederhana terdaftar di DJKI |
+| Kekayaan Intelektual | 1 draf Paten Sederhana (solar hybrid + IoT-MyPLN) | 1 Paten Sederhana terdaftar di DJKI |
 | Prototipe | TKT 4 (fungsional di lab) | TKT 6 (terpasang & beroperasi di 3 lokasi mitra) |
 
 **Indikator Kinerja Kegiatan Tahun 1:**
 | No | Indikator | Target |
 |----|-----------|--------|
-| 1 | KTI | 100% — 1 naskah jurnal Q3 status under review (arsitektur IBC-MPPT-IoT) |
+| 1 | KTI | 100% — 1 naskah jurnal Q3 status under review (arsitektur solar hybrid-MPPT-IoT-MyPLN) |
 | 2 | KI | 100% — 1 draf klaim Paten Sederhana |
 
 **Indikator Kinerja Kegiatan Tahun 2:**
@@ -168,19 +210,19 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 **TAHUN/PERIODE 1**
 | No | Aktivitas | Deskripsi | Waktu |
 |----|-----------|-----------|-------|
-| 1 | Desain Arsitektur Hybrid & IBC | Perancangan PV array, BESS, IBC two-phase PI-FLC, MPPT HHO | Bulan ke-1–3 |
+| 1 | Desain Arsitektur Solar Hybrid & MPPT HHO | Perancangan PV array bifacial, BESS, implementasi MPPT HHO, simulasi energi | Bulan ke-1–3 |
 | 2 | Pengembangan IoT Gateway ESP32 | Firmware multi-sensor, OCPP/MQTT bridge, integrasi sensor arus/tegangan | Bulan ke-4–6 |
 | 3 | Pengembangan Cloud Backend & MyPLN API | Backend Go, TimescaleDB, integrasi autentikasi MyPLN, dashboard | Bulan ke-5–7 |
 | 3a | UX Dashboard & Chatbot | Evaluasi UX dashboard MyPLN (SEM-PLS), pengembangan chatbot helpdesk | Bulan ke-5–8 |
-| 4 | Smart EMS & Prediksi Beban | ANN/LSTM prediksi 15-60 menit, hierarchical PI-FLC control | Bulan ke-6–8 |
-| 5 | Validasi Lab & Kalibrasi | Uji efisiensi IBC, ripple, akurasi MPPT, QoS jaringan, akurasi billing | Bulan ke-9–11 |
+| 4 | Smart EMS & Prediksi Beban | ANN/LSTM prediksi, load balancing berbasis iradiasi + SoC + TOU | Bulan ke-6–8 |
+| 5 | Validasi Lab & Kalibrasi | Uji efisiensi MPPT HHO, switching solar-grid, QoS jaringan, akurasi billing | Bulan ke-9–11 |
 | 6 | Publikasi & Paten Tahun 1 | Penulisan manuskrip, penyusunan draf paten | Bulan ke-10–12 |
 
 **TAHUN/PERIODE 2**
 | No | Aktivitas | Deskripsi | Waktu |
 |----|-----------|-----------|-------|
-| 1 | Persiapan Pilot & MoU Mitra | Koordinasi 3 lokasi, instalasi listrik, panel surya, provisioning | Bulan ke-1–2 |
-| 2 | Instalasi & Pilot Lapangan | Pemasangan 3 unit, monitoring 3 bulan, kalibrasi billing & switching | Bulan ke-3–8 |
+| 1 | Persiapan Pilot & MoU Mitra | Koordinasi 3 lokasi, instalasi panel surya & BESS, provisioning unit | Bulan ke-1–2 |
+| 2 | Instalasi & Pilot Lapangan | Pemasangan 3 unit, monitoring 3 bulan, kalibrasi billing & switching solar-grid | Bulan ke-3–8 |
 | 3 | Evaluasi, SOP & Diseminasi | Analisis data, penyusunan SOP, publikasi jurnal, policy brief | Bulan ke-9–12 |
 
 ---
@@ -192,15 +234,15 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 |---------------|-------------------|--------|-----------|-------------------|--------|--------|------|-------|
 | **A. Pengadaan Bahan** | | | | | | | | |
 | A.1 Prototipe & Pengembangan | Prototipe lab TKT 4 | | | | | | | |
-| 1. Panel Surya Bifacial 500Wp + Inverter Hybrid | Integrasi solar PV | 6 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
+| 1. Panel Surya Bifacial 500Wp + Inverter Hybrid | Integrasi solar PV | 4 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
 | 2. BESS LFP 48V 100Ah + BMS | Energy storage | 2 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 3. ESP32 Dev Kit + Sensor Arus/Tegangan ACS712 + PZEM-004T | IoT gateway & metering | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 4. Komponen IBC (Mosfet, Induktor, Driver, Dioda) | Rangkaian fast charger | 3 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 5. Enclosure IP65 + Kabel Power | Integrasi fisik | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
+| 3. ESP32 Dev Kit + Modul 4G LTE + Sensor Arus/Tegangan | IoT gateway & metering | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
+| 4. Tablet Android 10" Industrial | Kiosk display & interaksi | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
+| 5. Komponen Power (MCB, Kontaktor) + Enclosure IP65 | Sistem daya & integrasi fisik | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
 | **Sub Total A.1** | | | | | | | **[Isi]** | **0%** |
 | A.2 Pengujian & Validasi | Laporan uji | | | | | | | |
-| 1. Sewa Cloud Server (Fly.io/Supabase) | Hosting backend | 12 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
-| 2. Sewa Simulator OCPP & Energy Logger | Validasi protokol & metering | 6 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
+| 1. Sewa Cloud Server (Fly.io/Supabase) | Hosting backend & MyPLN API | 12 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
+| 2. Sewa Simulator OCPP & Solar Testbed | Validasi protokol & efisiensi MPPT | 6 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
 | **Sub Total A.2** | | | | | | | **[Isi]** | **0%** |
 | **Sub Total A** | | | | | | | **[Isi]** | **0%** |
 | **B. Honor Tenaga Lapangan** | Instalasi & monitoring | 72 | 1 | 150.000 | OH | [Isi] | 100% | 0% |
@@ -216,25 +258,22 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 ---
 
 ## DAFTAR PUSTAKA
-1. Subiyanto, S., Aprilianto, R.A., Syah, M.N., Saputro, B., et al. (2026). High-Performance Electric Two-Wheeler Fast Charger Based on Intelligent Control Algorithm. *JAMRIS*, 20(2), 175-184. https://doi.org/10.14313/jamris-2026-030
-2. Widiyawati, E., Subiyanto, S., Ridloah, S., Sunarko, B., Saputro, B., et al. (2026). Ray Tracing-Based Modeling of Bifacial Photovoltaic Systems in Greenhouse Agrivoltaics. *JTP Lampung*, 15(2), 510-524. https://doi.org/10.23960/jtepl.v15i2.510-524
-3. Aprilianto, R.A., Subiyanto, Syah, M.N., & Nugroho, D.B. (2025). HHO MPPT for PV-Battery Systems Under Partial Shading Conditions. *IEEE ISMEE 2025*. https://doi.org/10.1109/ISMEE68179.2025.11473059
-4. Easterline, L.M., Putri, A.A.-Z.R., Atmaja, P.S., Dewi, A.L., & Prasetyo, A. (2024). Smart Air Monitoring with IoT-based MQ-2, MQ-7, MQ-8, and MQ-135 Sensors using NodeMCU ESP32. *Procedia Computer Science*, 245, 815-824. https://doi.org/10.1016/j.procs.2024.10.308
-5. Dewi, A.L., Adi, C.G.S., & Prasetyo, A. (2025). Datsheet-based Calibration Study of the MQ-135 Sensors for Carbon Dioxide (CO2) and MQ-8 Sensors for Hydrogen (H2). *Engineering Research Express*. https://doi.org/10.1088/2631-8695/adbcc6
-6. Dewi, A.L., Adi, C.G.S., Prasetyo, A., & Sari, R.K. (2024). Comparison of Training Function, Adaption Learning Function, and Transfer Function of Hidden Layers in Artificial Neural Network in Weather Prediction. *Proc. ICIMTech 2024*.
-7. Farabi, A., Kurniadi, A.P., Salim, Z., Ginta, T.L., et al. (2025). Promoting a Low-carbon Indonesia: How Energy Consumption and Financial Development Shape its Path. *IJEEP*, 15(5), 114-126. https://doi.org/10.32479/ijeep.18292
-8. Syah, M.N., Aprilianto, R.A., Suryanto, A., & Al-Azhari, A.H. (2025). Hybrid Renewable Energy Microgrid Design with AI-Based Energy Management. *IEEE IES 2025*.
-9. Syah, M.N., Aprilianto, R.A., & Suryanto, A. (2024). PID Controller Enhancement of Interleaved Buck Converter for DC-DC Conversion. *IEEE ICT-PEP 2024*.
-10. Aprilianto, R.A., Syah, M.N., & Suryanto, A. (2024). Novel High Gain Modified SEPIC Converter for Renewable Energy Applications. *IEEE ICT-PEP 2024*.
-11. Ibezim, O., Prasad, K., & Kilby, J. (2026). Intelligent Hybrid Solar–Wind Off-Grid EV Charging Stations: A Techno-Economic Assessment. *Electronics*, 15(11), 2253. https://doi.org/10.3390/electronics15112253
-12. Singla, P., Boora, S., & Singhal, P. (2024). Design and Simulation of 4 kW Solar Power-Based Hybrid EV Charging Station. *Scientific Reports*, 14, 7336. https://doi.org/10.1038/s41598-024-56833-5
-13. Erdemir, D., & Dincer, I. (2023). Solar-Driven Charging Station with Liquid CO2 Storage. *Journal of Energy Storage*, 73(C), 109080. https://doi.org/10.1016/j.est.2023.109080
-14. He, L., & Wu, Z. (2024). Hybrid Solar-Wind Fast Charging Station with Demand Response. *Renewable Energy*, 237(C), 121843. https://doi.org/10.1016/j.renene.2024.121843
-15. Open Charge Alliance. (2022). *OCPP 1.6J specification*. https://openchargealliance.org
-16. Peraturan Pemerintah No. 28 Tahun 2025 tentang Percepatan Pengembangan dan Pemanfaatan KBLBB.
-17. Tirana, Y., & Sfenrianto. (2023). Factors on Mobile Application User Satisfaction in the Largest Indonesian Internet Service Provider (ISP). *CommIT Journal*, 17(2), 199-208. https://journal.binus.ac.id/index.php/commit/article/view/8518
-18. Undang-Undang No. 27 Tahun 2022 tentang Perlindungan Data Pribadi.
-19. Peraturan Presiden No. 55 Tahun 2019 tentang Percepatan Program KBLBB.
+1. Widiyawati, E., Subiyanto, S., Ridloah, S., Sunarko, B., Saputro, B., et al. (2026). Ray Tracing-Based Modeling of Bifacial Photovoltaic Systems in Greenhouse Agrivoltaics. *JTP Lampung*, 15(2), 510-524. https://doi.org/10.23960/jtepl.v15i2.510-524
+2. Aprilianto, R.A., Subiyanto, Syah, M.N., & Nugroho, D.B. (2025). HHO MPPT for PV-Battery Systems Under Partial Shading Conditions. *IEEE ISMEE 2025*. https://doi.org/10.1109/ISMEE68179.2025.11473059
+3. Easterline, L.M., Putri, A.A.-Z.R., Atmaja, P.S., Dewi, A.L., & Prasetyo, A. (2024). Smart Air Monitoring with IoT-based MQ-2, MQ-7, MQ-8, and MQ-135 Sensors using NodeMCU ESP32. *Procedia Computer Science*, 245, 815-824. https://doi.org/10.1016/j.procs.2024.10.308
+4. Dewi, A.L., Adi, C.G.S., & Prasetyo, A. (2025). Datsheet-based Calibration Study of the MQ-135 Sensors for Carbon Dioxide (CO2) and MQ-8 Sensors for Hydrogen (H2). *Engineering Research Express*. https://doi.org/10.1088/2631-8695/adbcc6
+5. Dewi, A.L., Adi, C.G.S., Prasetyo, A., & Sari, R.K. (2024). Comparison of Training Function, Adaption Learning Function, and Transfer Function of Hidden Layers in Artificial Neural Network in Weather Prediction. *Proc. ICIMTech 2024*.
+6. Farabi, A., Kurniadi, A.P., Salim, Z., Ginta, T.L., et al. (2025). Promoting a Low-carbon Indonesia: How Energy Consumption and Financial Development Shape its Path. *IJEEP*, 15(5), 114-126. https://doi.org/10.32479/ijeep.18292
+7. Syah, M.N., Aprilianto, R.A., Suryanto, A., & Al-Azhari, A.H. (2025). Hybrid Renewable Energy Microgrid Design with AI-Based Energy Management. *IEEE IES 2025*.
+8. Syah, M.N., Aprilianto, R.A., & Suryanto, A. (2024). PID Controller Enhancement of Interleaved Buck Converter for DC-DC Conversion. *IEEE ICT-PEP 2024*.
+9. Ibezim, O., Prasad, K., & Kilby, J. (2026). Intelligent Hybrid Solar–Wind Off-Grid EV Charging Stations: A Techno-Economic Assessment. *Electronics*, 15(11), 2253. https://doi.org/10.3390/electronics15112253
+10. Subiyanto, S., Aprilianto, R.A., Syah, M.N., Saputro, B., et al. (2026). High-Performance Electric Two-Wheeler Fast Charger Based on Intelligent Control Algorithm. *JAMRIS*, 20(2), 175-184. https://doi.org/10.14313/jamris-2026-030
+11. Tirana, Y., & Sfenrianto. (2023). Factors on Mobile Application User Satisfaction in the Largest Indonesian Internet Service Provider (ISP). *CommIT Journal*, 17(2), 199-208. https://journal.binus.ac.id/index.php/commit/article/view/8518
+12. Open Charge Alliance. (2022). *OCPP 1.6J specification*. https://openchargealliance.org
+13. Peraturan Pemerintah No. 28 Tahun 2025 tentang Percepatan Pengembangan dan Pemanfaatan KBLBB.
+14. Undang-Undang No. 27 Tahun 2022 tentang Perlindungan Data Pribadi.
+15. Peraturan Presiden No. 55 Tahun 2019 tentang Percepatan Program KBLBB.
+
 
 ---
 
@@ -254,7 +293,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **SINTA ID** | 257687 |
 | **Google Scholar** | https://scholar.google.com/citations?user=TcmKHJgAAAAJ |
 | **Email** | subiyanto@mail.unnes.ac.id |
-| **Publikasi Utama (2024-2026)** | IBC Fast Charger (JAMRIS 2026), Microgrid AI (IEEE IES 2025), PID IBC (IEEE ICT-PEP 2024), Electric Bus Scheduling (Majalah Ilmiah Teknologi Elektro 2024) |
+| **Publikasi Utama (2024-2026)** | Microgrid AI Optimization (IEEE IES 2025), Electric Bus Scheduling (Majalah Ilmiah Teknologi Elektro 2024), HHO MPPT (ISMEE 2025) |
 
 ### 2. Bagaskoro Saputro, S.Kom., M.Kom. — Anggota Periset
 | Item | Detail |
@@ -267,7 +306,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **SINTA ID** | 6869233 |
 | **Google Scholar** | https://scholar.google.com/citations?user=wJSoTIMAAAAJ |
 | **Email** | bagaskoro.saputro@binus.ac.id |
-| **Publikasi Utama (2026)** | Co-author IBC Fast Charger (JAMRIS 2026, DOI: 10.14313/jamris-2026-030); Co-author Bifacial PV Modeling (JTP Lampung 2026, DOI: 10.23960/jtepl.v15i2.510-524) |
+| **Publikasi Utama (2026)** | Co-author Bifacial PV Modeling (JTP Lampung 2026, DOI: 10.23960/jtepl.v15i2.510-524) |
 
 ### 3. Mario Norman Syah, S.T., M.T. — Anggota Periset
 | Item | Detail |
@@ -279,9 +318,8 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **S2** | Teknik Elektro — Universitas Gadjah Mada (UGM) |
 | **SINTA ID** | 6869196 |
 | **Google Scholar** | https://scholar.google.com/citations?user=Ao9DaAkAAAAJ |
-| **Scopus H-index** | - (cited by 54 on GS) |
 | **Email** | mario.norman@mail.unnes.ac.id |
-| **Publikasi Utama (2024-2026)** | IBC Fast Charger (JAMRIS 2026), HHO MPPT (ISMEE 2025, DOI: 10.1109/ISMEE68179.2025.11473059), Microgrid Optimization (IEEE IES 2025), PID IBC (IEEE ICT-PEP 2024), Novel High Gain SEPIC (ICT-PEP 2024), Interleaved Bidirectional DC-DC Converter (ICPEA 2022), Fast MPPT Dynamic Scaling P&O (2025), Techno-economic Feasibility Study (Techné 2025) |
+| **Publikasi Utama (2024-2026)** | HHO MPPT (ISMEE 2025, DOI: 10.1109/ISMEE68179.2025.11473059), Microgrid Optimization (IEEE IES 2025), Novel High Gain SEPIC (ICT-PEP 2024) |
 
 ### 4. Abdurrakhman Hamid Al-Azhari — Anggota Periset
 | Item | Detail |
@@ -294,7 +332,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Scopus** | 3 articles, H-Index 2 |
 | **Google Scholar** | 15 articles, H-Index 3 |
 | **Email** | abdurrakhman.hamid@mail.unnes.ac.id |
-| **Publikasi Utama (2024-2026)** | Co-author IBC Fast Charger (JAMRIS 2026); Co-author Microgrid Karimunjawa (IEEE IES 2025); Co-author BLDC Predictive Control (ICVEE 2024) |
+| **Publikasi Utama (2024-2026)** | Co-author Microgrid Karimunjawa (IEEE IES 2025); Co-author BLDC Predictive Control (ICVEE 2024) |
 
 ### 5. Adhe Lingga Dewi, S.Si., M.Si. — Anggota Periset
 | Item | Detail |
@@ -308,7 +346,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Scopus** | 12 articles, H-Index 3 |
 | **Google Scholar** | 46 articles, H-Index 5 |
 | **Email** | adhe.dewi@binus.ac.id |
-| **Publikasi Utama (2024-2026)** | Smart Air Monitoring IoT ESP32 (Procedia CS 2024, DOI: 10.1016/j.procs.2024.10.308, cited 22 — sebagai corresponding author); Sensor Calibration MQ-135/8 (Eng. Res. Express 2025, DOI: 10.1088/2631-8695/adbcc6 — first author); ANN Weather Prediction (ICIMTech 2024 — first author); Workload & Stress Monitoring IoT GSR (Procedia CS 2025); #DEBITAAPPS ML Diabetes (E3S Web of Conferences 2026 — first author); Breast Cancer DNN (AIP Conf. Proc. 2026) |
+| **Publikasi Utama (2024-2026)** | Smart Air Monitoring IoT ESP32 (Procedia CS 2024, DOI: 10.1016/j.procs.2024.10.308 — corresponding author); Sensor Calibration MQ-135/8 (Eng. Res. Express 2025, DOI: 10.1088/2631-8695/adbcc6 — first author); ANN Weather Prediction (ICIMTech 2024 — first author); Workload & Stress Monitoring IoT GSR (Procedia CS 2025); #DEBITAAPPS ML Diabetes (E3S Web of Conferences 2026 — first author); Breast Cancer DNN (AIP Conf. Proc. 2026) |
 
 ### 6. Yashella Tirana, S.Kom. — Anggota Periset
 | Item | Detail |
@@ -320,7 +358,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **SINTA ID** | 6998018 |
 | **Google Scholar** | https://scholar.google.com/citations?user= |
 | **Email** | yashella.tirana@binus.ac.id |
-| **Publikasi Utama (2023-2026)** | Factors on Mobile App User Satisfaction (CommIT Journal 2023, cited 8); Model Deteksi Misleading Visual Review (Hibah BINUS 2026) |
+| **Publikasi Utama (2023-2026)** | Factors on Mobile App User Satisfaction (CommIT Journal 2023); Model Deteksi Misleading Visual Review (Hibah BINUS 2026) |
 
 ### 7. Ir. Turnad Lenggo Ginta, ST, MT, PhD — Anggota Periset
 | Item | Detail |
@@ -336,13 +374,80 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 
 ---
 
-## DATA MANAGEMENT PLAN (DMP)
-- **Data yang Dikumpulkan:** Telemetri charger (OCPP 1.6J), log inverter solar (Modbus), data irradiance, data transaksi MyPLN, log EMS, metrik utilisasi
-- **Format & Struktur:** JSON/CSV (TimescaleDB), Relational (PostgreSQL)
-- **Penyimpanan & Akses:** Cloud terenkripsi, backup harian, RBAC + Row Level Security
-- **Privasi & Kepatuhan:** Data transaksi MyPLN dienkripsi, tidak menyimpan data pribadi pengguna, plakat informasi di lokasi
-- **Sharing & Retensi:** Dataset telemetri anonim dipublikasikan di Zenodo/GitHub 12 bulan pasca proyek. Data mentah disimpan 3 tahun untuk audit dan replikasi riset
+## SUB LAMPIRAN 2 — DATA MANAGEMENT PLAN (DMP)
+
+### 1. Metadata
+| Item | Isian |
+|------|-------|
+| **1.1 Judul Riset** | Pengembangan SPKLU Cerdas Berbasis Solar Hybrid dengan MPPT HHO dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia |
+| **1.2 Durasi Riset** | Mulai: 01-01-2026 — Akhir: 31-12-2027 |
+| **1.3 Ketua Tim Riset** | nama: Prof. Dr. Subiyanto, ST, MT; afiliasi: Universitas Negeri Semarang; e-mail: subiyanto@mail.unnes.ac.id; no HP: [No. HP] |
+| **1.4 Subjek Riset** | Engineering, Computer and Information Sciences |
+| **1.5 Deskripsi Riset** | Riset mengembangkan SPKLU cerdas berbasis solar hybrid dengan MPPT HHO dan IoT terintegrasi MyPLN, TKT 3→6 dalam 2 tahun |
+| **1.6 Sumber Dana Riset** | RIIM Kompetisi — BRIN/LPDP |
+
+### 2. Tipe Data
+| Jenis Data | Deskripsi | Format File |
+|------------|-----------|-------------|
+| Log inverter solar | Data Modbus (tegangan PV, arus, daya, iradiasi) | CSV |
+| Data iradiasi | Sensor irradiance harian (W/m²) | CSV |
+| Telemetri charger | Log OCPP 1.6J (session ID, meter start/stop, kWh, timestamp) | JSON, CSV |
+| Data transaksi MyPLN | ID transaksi, status pembayaran, timestamp | JSON (enkripsi) |
+| Log EMS | Switching solar/grid, SOC BESS, alokasi daya | JSON, CSV |
+| Metrik utilisasi | Durasi charging per sesi, okupansi, throughput harian | CSV |
+| Data kepuasan pengguna | Hasil kuesioner UX dashboard & chatbot (Tirana & Sfenrianto, 2023) | CSV, PDF |
+
+### 3. Penyimpanan dan Pengamanan Data
+| Item | Isian |
+|------|-------|
+| **3.1 Tempat penyimpanan** | Layanan cloud terenkripsi (AWS/GCP), backup harian; Infrastruktur repositori institusi (UNNES); Laptop tim riset (data sementara) |
+| **3.2 Waktu deposit ke RIN** | 12/2027 (maksimal 1 bulan sebelum tahun terakhir kegiatan riset) |
+
+### 4. Pengelolaan Privasi dan Kerahasiaan Data
+| Item | Isian |
+|------|-------|
+| **Data pribadi/sensitif?** | Ya — data transaksi MyPLN mengandung data pembayaran; data kepuasan pengguna mengandung demografi responden |
+| **Penanganan** | Pseudonim — data transaksi dienkripsi AES-256, tidak menyimpan data pribadi pengguna; anonim — data kuesioner tanpa identitas langsung; penyandian (coding) — ID sesi OCPP sebagai kode unik tanpa PII |
 
 ---
+
+## SUB LAMPIRAN 4 — FORMAT PERAN TIM PERISET
+
+| No | Nama | Peran dalam Riset | Kompetensi Pendukung | URL Scopus |
+|----|------|-------------------|---------------------|------------|
+| 1 | Prof. Dr. Subiyanto, ST, MT | Ketua; perancang arsitektur solar hybrid + MPPT HHO, pengawasan integrasi IoT-Cloud dan MyPLN | Intelligent Systems Electrical Engineering, Power Electronics, AI; Guru Besar Teknik Elektro UNNES | [Scopus] |
+| 2 | Bagaskoro Saputro, S.Kom., M.Kom. | Anggota; pengembangan IoT gateway ESP32, integrasi MyPLN API, backend cloud, dashboard monitoring, aplikasi tablet | Embedded Systems, IoT Architecture, Web Development; Dosen BINUS University | [Scopus] |
+| 3 | Mario Norman Syah, S.T., M.T. | Anggota; perancangan PV array bifacial, BESS, implementasi MPPT HHO, uji lab sistem tenaga surya | Power Electronics, Photovoltaic Systems, MPPT, Renewable Energy | [Scopus] |
+| 4 | Abdurrakhman Hamid Al-Azhari | Anggota; implementasi firmware ESP32, kalibrasi sensor, uji coba komunikasi OCPP/MQTT | IoT, Embedded Systems, Sensor Integration | [Scopus] |
+| 5 | Adhe Lingga Dewi, S.Si., M.Si. | Anggota; validasi sensor dan kalibrasi metode pengukuran, analisis data time-series, ANN/LSTM untuk prediksi beban | IoT, Sensors, ANN, Computational Physics; Dosen BINUS University | [Scopus] |
+| 6 | Yashella Tirana, S.Kom. | Anggota; evaluasi UX dashboard MyPLN dan chatbot, analisis faktor kepuasan pengguna, pengembangan kuesioner | Information Systems, User Satisfaction, Chatbot Effectiveness; Dosen BINUS University | [Scopus] |
+| 7 | Dr. Turnad Lenggo Ginta | Anggota; advis eksternal hilirisasi dan kebijakan energi rendah karbon, analisis dampak lingkungan | Machine Learning, Energy Policy; Peneliti BRIN | 26435862600 |
+
+---
+
+## SURAT PERNYATAAN AKTIF KEDINASAN
+
+Yang bertanda tangan di bawah ini:
+
+| | |
+|---|----|
+| Nama | Prof. Dr. Subiyanto, ST, MT |
+| NIP | 132309137 |
+| Jabatan | Guru Besar, Fakultas Teknik, Universitas Negeri Semarang |
+| Alamat | Jl. Sekaran, Gunungpati, Semarang 50229 |
+| No. HP/WA | [No. HP] |
+| Email | subiyanto@mail.unnes.ac.id |
+
+Dengan ini menyatakan bahwa saya aktif menjalankan tugas kedinasan sebagai Dosen/Peneliti di Universitas Negeri Semarang dan bersedia melaksanakan kegiatan riset yang berjudul:
+
+**"Pengembangan SPKLU Cerdas Berbasis Solar Hybrid dengan MPPT HHO dan Integrasi MyPLN untuk Mendukung Ekosistem Kendaraan Listrik Rendah Karbon di Indonesia"**
+
+sesuai dengan proposal yang diajukan dalam skema RIIM Kompetisi BRIN.
+
+Demikian surat pernyataan ini dibuat dengan sebenarnya untuk digunakan sebagaimana mestinya.
+
+| Tempat, dd-mm-yy Yang menyatakan, |
+|---|
+| <br><br><br>**Prof. Dr. Subiyanto, ST, MT**<br>NIP 132309137 |
 
 *Dokumen ini merupakan integrasi dari proposal1.md (IoT SPKLU MyPLN), hybrid-solar-panel.md (technical spec off-grid solar), dan publikasi tim periset — diformat ulang mengikuti sistematika Sublampiran I Pedoman RIIM.*
