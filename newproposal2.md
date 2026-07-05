@@ -1,6 +1,6 @@
 # PROPOSAL RIIM KOMPETISI 2026
 **FOKUS RISET:** Elektronika dan Informatika / Energi
-**JUDUL:** Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
+**JUDUL:** Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT dan Charger OCPP Komersial untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
 
 **KETUA PERISET:** Prof. Dr. Subiyanto
 **ANGGOTA PERISET:**
@@ -24,7 +24,7 @@
 
 **Tema** : Elektronika dan Informatika / Energi
 
-1. **Judul Proposal** : Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
+1. **Judul Proposal** : Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT dan Charger OCPP Komersial untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia
 
 2. **Ketua Periset** :
    a. Nama Lengkap : Prof. Dr. Subiyanto, ST, MT
@@ -71,8 +71,8 @@ Dengan ini menyatakan bahwa proposal yang diajukan bersifat orisinil dan belum p
 ---
 
 ## ABSTRAK
-Penelitian ini mengembangkan prototipe sistem manajemen SPKLU AC 22kW berbasis arsitektur IoT-Edge terintegrasi untuk lokasi parkir publik dwell-time tinggi (kampus, kantor, mall, hotel), dengan integrasi solar hybrid dan HHO MPPT. Permasalahan strategis yang diangkat adalah ketergantungan grid PLN, fragmentasi vendor, ketiadaan prediksi okupansi yang patuh privasi, serta belum adanya integrasi IBC fast charger dengan edge-AI untuk prediksi beban. Solusi mencakup: (1) CSMS terbuka dengan bridge OCPP 1.6J dan Modbus ke MQTT, (2) Edge-AI YOLOv8 untuk deteksi okupansi dengan anonimisasi real-time (frame blurring + metadata-only, kepatuhan UU PDP), (3) integrasi solar hybrid dengan MPPT HHO (99.53% efisiensi) dan IBC PI-FLC (57.75 menit fast charging E2W), (4) smart EMS tiga-level dengan prediksi ANN/LSTM 15-60 menit, dan (5) pipeline AI diproses 100% di edge device tanpa mengirim data biometrik ke cloud. Penelitian diperkuat oleh track record tim: IBC fast charger (Subiyanto et al., 2026), bifacial PV (Widiyawati et al., 2026), HHO MPPT (Aprilianto et al., 2025), IoT multi-sensor ESP32 (Dewi et al., 2024), kalibrasi sensor (Dewi et al., 2025), dan kebijakan low-carbon (Farabi, Ginta et al., 2025). Target: TKT 3→6, 3 unit pilot, 2 KTI Q3, 1 paten, dataset publik.
-**Kata Kunci:** SPKLU, AC 22kW, OCPP 1.6J, MQTT, YOLOv8, Edge AI, Solar Hybrid, HHO MPPT, IBC, ANN, UU PDP, TKT 3-6
+Penelitian ini mengembangkan prototipe sistem manajemen SPKLU AC 22kW berbasis arsitektur IoT-Edge terintegrasi untuk lokasi parkir publik dwell-time tinggi (kampus, kantor, mall, hotel), dengan integrasi solar hybrid dan HHO MPPT. Permasalahan strategis yang diangkat adalah ketergantungan grid PLN, fragmentasi vendor, ketiadaan prediksi okupansi yang patuh privasi, serta belum adanya integrasi charger OCPP komersial dengan edge-AI untuk prediksi beban. Solusi mencakup: (1) CSMS terbuka dengan bridge OCPP 1.6J dan Modbus ke MQTT, (2) Edge-AI YOLOv8 untuk deteksi okupansi dengan anonimisasi real-time (frame blurring + metadata-only, kepatuhan UU PDP), (3) integrasi solar hybrid dengan MPPT HHO (99.53% efisiensi) dan charger OCPP AC 22kW komersial, (4) smart EMS tiga-level dengan prediksi ANN/LSTM 15-60 menit, dan (5) pipeline AI diproses 100% di edge device tanpa mengirim data biometrik ke cloud. Penelitian diperkuat oleh track record tim: fast charger E2W (Subiyanto et al., 2026), bifacial PV (Widiyawati et al., 2026), HHO MPPT (Aprilianto et al., 2025), IoT multi-sensor ESP32 (Dewi et al., 2024), kalibrasi sensor (Dewi et al., 2025), dan kebijakan low-carbon (Farabi, Ginta et al., 2025). Target: TKT 3→6, 3 unit pilot, 2 KTI Q3, 1 paten, dataset publik.
+**Kata Kunci:** SPKLU, AC 22kW, OCPP 1.6J, MQTT, YOLOv8, Edge AI, Solar Hybrid, HHO MPPT, ANN, UU PDP, TKT 3-6
 
 ---
 
@@ -83,30 +83,30 @@ Indonesia menargetkan 2 juta mobil listrik dan 13 juta motor listrik pada 2030 (
 
 Penelitian Ibezim et al. (2026) menunjukkan konfigurasi solar hybrid mencapai 30-50% reduksi kebutuhan baterai dan LCOE USD 0.08-0.15/kWh. Dari sisi kebijakan, Farabi, Ginta et al. (2025) mengkonfirmasi kontribusi pengembangan energi pada reduksi emisi Indonesia.
 
-Tim periset UNNES memiliki rekam jejak terdepan: Subiyanto et al. (2026) — IBC PI-FLC fast charger 57.75 menit; Widiyawati et al. (2026) — bifacial PV gain 25-30%; Aprilianto et al. (2025) — HHO MPPT 99.53%. Dari sisi IoT, Dewi et al. (2024) telah membangun sistem monitoring udara berbasis ESP32 multi-sensor dengan cloud platform, serta studi kalibrasi sensor MQ (Dewi et al., 2025) dan ANN untuk prediksi time-series (Dewi et al., 2024) — membuktikan kapabilitas dalam pengembangan IoT gateway, validasi sensor, dan model prediktif. Dari sisi sistem informasi dan machine learning, Tirana & Sfenrianto (2023) meneliti faktor kepuasan pengguna aplikasi platform digital.
+Tim periset UNNES memiliki rekam jejak terdepan: Subiyanto et al. (2026) — fast charger E2W berbasis intelligent control; Widiyawati et al. (2026) — bifacial PV gain 25-30%; Aprilianto et al. (2025) — HHO MPPT 99.53%; Syah et al. (2024) — pengendali PID untuk DC-DC converter. Dari sisi IoT, Dewi et al. (2024) telah membangun sistem monitoring udara berbasis ESP32 multi-sensor dengan cloud platform, serta studi kalibrasi sensor MQ (Dewi et al., 2025) dan ANN untuk prediksi time-series (Dewi et al., 2024) — membuktikan kapabilitas dalam pengembangan IoT gateway, validasi sensor, dan model prediktif. Dari sisi sistem informasi dan machine learning, Tirana & Sfenrianto (2023) meneliti faktor kepuasan pengguna aplikasi platform digital.
 
 ### 2. Rumusan Masalah dan Hipotesis Solusi
 **Rumusan Masalah:**
-(1) Bagaimana merancang arsitektur IoT-Edge yang mengintegrasikan OCPP 1.6J, Modbus inverter, MPPT HHO, dan IBC fast charger dalam satu sistem solar hybrid?
+(1) Bagaimana merancang arsitektur IoT-Edge yang mengintegrasikan OCPP 1.6J, Modbus inverter, MPPT HHO, dan charger OCPP komersial dalam satu sistem solar hybrid?
 (2) Bagaimana mengimplementasikan pipeline edge-AI YOLOv8 dengan anonimisasi real-time untuk prediksi okupansi 15-60 menit (MAPE <15%) tanpa mengirim data biometrik ke cloud, serta menjamin kepatuhan UU PDP No. 27/2022?
 (3) Bagaimana mengintegrasikan hierarchical EMS tiga-level (PI-FLC + ANN/LSTM) dengan HHO MPPT dan smart load balancing berbasis irradiance, SoC, tarif TOU?
 (4) Apakah prototipe sistem layak diuji pada skala pilot TKT 5-6 di 3 lokasi parkir publik dwell-time tinggi?
 
 **Hipotesis Solusi:**
-Arsitektur modular edge gateway dengan pola `OCPP/Modbus → MQTT Bridge` + YOLOv8 anonimisasi real-time akan menurunkan latensi <200ms, MAPE <15%, utilisasi solar ≥35%, dan strain puncak grid ≥20%. Integrasi IBC PI-FLC + MPPT HHO memberikan efisiensi charging >94% dan MPPT >99%. Pipeline edge 100% lokal menjamin zero biometric storage.
+Arsitektur modular edge gateway dengan pola `OCPP/Modbus → MQTT Bridge` + YOLOv8 anonimisasi real-time akan menurunkan latensi <200ms, MAPE <15%, utilisasi solar ≥35%, dan strain puncak grid ≥20%. Integrasi charger OCPP komersial + MPPT HHO memberikan efisiensi energi sistem >94% dan MPPT >99%. Pipeline edge 100% lokal menjamin zero biometric storage.
 
 ### 3. State of the Art dan Kebaruan
-CSMS komersial masih tertutup dengan biaya lisensi tinggi dan bersifat reaktif. Penggunaan kamera untuk prediksi di ruang publik terkendala regulasi privasi. MPPT konvensional (P&O/INC) <95% efisiensi. Charger E2W konvensional membutuhkan 180 menit untuk full charge.
+CSMS komersial masih tertutup dengan biaya lisensi tinggi dan bersifat reaktif. Penggunaan kamera untuk prediksi di ruang publik terkendala regulasi privasi. MPPT konvensional (P&O/INC) <95% efisiensi.
 
 Kebaruan penelitian:
-1. **IBC PI-FLC Fast Charger** — 57.75 menit, ripple <12%, efisiensi >94% (Subiyanto et al., 2026)
-2. **MPPT HHO** — 99.53% efisiensi (Aprilianto et al., 2025)
-3. **Solar PV Bifacial** — 25-30% rear gain (Widiyawati et al., 2026)
-4. **Privacy-by-Design Edge Vision** — YOLOv8 + anonimisasi real-time, metadata-only, zero biometric storage/transmission
-5. **IoT-ESP32 Multi-sensor Gateway** — Berbasis pengalaman monitoring udara IoT (Dewi et al., 2024)
-6. **Sensor Calibration Methodology** — Validasi akurasi sensor untuk metering SPKLU (Dewi et al., 2025)
-7. **Predictive EMS with ANN** — Prediksi beban 15-60 menit menggunakan ANN/LSTM, didukung studi komparasi fungsi ANN (Dewi et al., 2024)
-8. **Bridge OCPP-WS → MQTT** untuk charger AC 22kW yang tidak mendukung native MQTT
+1. **MPPT HHO** — 99.53% efisiensi (Aprilianto et al., 2025)
+2. **Solar PV Bifacial** — 25-30% rear gain (Widiyawati et al., 2026)
+3. **Privacy-by-Design Edge Vision** — YOLOv8 + anonimisasi real-time, metadata-only, zero biometric storage/transmission
+4. **IoT-ESP32 Multi-sensor Gateway** — Berbasis pengalaman monitoring udara IoT (Dewi et al., 2024)
+5. **Sensor Calibration Methodology** — Validasi akurasi sensor untuk metering SPKLU (Dewi et al., 2025)
+6. **Predictive EMS with ANN** — Prediksi beban 15-60 menit menggunakan ANN/LSTM, didukung studi komparasi fungsi ANN (Dewi et al., 2024)
+7. **Bridge OCPP-WS → MQTT** untuk charger AC 22kW yang tidak mendukung native MQTT
+8. **Integrasi Charger OCPP Komersial dengan Edge-AI** — Menggabungkan CSMS terbuka dan prediksi beban cerdas pada charger AC 22kW yang sudah tersertifikasi dan beredar di pasaran
 9. **Potensi Deteksi Anomali Visual** — Tim periset memiliki pengalaman dalam pengembangan model deteksi berbasis machine learning/image processing yang dapat dikembangkan untuk monitoring SPKLU
 
 ### 4. Tujuan dan Sasaran Riset
@@ -115,7 +115,7 @@ Kebaruan penelitian:
 **Tujuan Khusus:**
 (1) Menguji akurasi metering, stabilitas koneksi, performa load balancing, dan keamanan data di lab & lapangan
 (2) Memvalidasi pipeline AI edge terhadap akurasi prediksi, latensi inferensi, dan audit kepatuhan PDP
-(3) Mengintegrasikan IBC PI-FLC, MPPT HHO, dan solar hybrid dalam satu platform IoT-Edge
+(3) Mengintegrasikan charger OCPP komersial, MPPT HHO, dan solar hybrid dalam satu platform IoT-Edge
 (4) Menyusun SOP, API terbuka, dan blueprint operasional untuk hilirisasi
 
 **Sasaran:** TKT 3→6 dalam 2 tahun, 2 KTI Q3, 1 Paten terdaftar, 3 unit pilot.
@@ -125,10 +125,10 @@ Kebaruan penelitian:
 ## PETA JALAN DAN NILAI STRATEGIS
 | Periode | Target TKT | Kegiatan Inti | Luaran Utama |
 |---------|------------|---------------|--------------|
-| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur, CSMS Go & EMQX, YOLOv8 + anonimisasi, integrasi IBC + HHO MPPT, setup TimescaleDB + RLS, uji lab (QoS, akurasi billing, efisiensi MPPT/IBC) | 1 prototipe lab, 1 draf Paten, 1 KTI under review (Q3) |
+| **Tahun 1 (2026)** | 3 → 4 | Desain arsitektur, CSMS Go & EMQX, YOLOv8 + anonimisasi, integrasi charger OCPP + HHO MPPT, setup TimescaleDB + RLS, uji lab (QoS, akurasi billing, efisiensi MPPT) | 1 prototipe lab, 1 draf Paten, 1 KTI under review (Q3) |
 | **Tahun 2 (2027)** | 5 → 6 | Instalasi 3 unit mitra, monitoring 3 bulan, validasi switching solar-grid, kalibrasi load balancing, SOP & SDK rilis | 3 unit terpasang, 1 Paten terdaftar, 2 KTI accepted/under review, 1 SOP + policy brief |
 
-**Nilai Strategis:** Riset menjawab kebutuhan SPKLU terjangkau, interoperabel, dan ramah grid. Integrasi solar hybrid + HHO MPPT + IBC menurunkan ketergantungan grid dan waktu charging. Edge-AI anonim membuka standar etis baru untuk IoT publik. Pipeline privacy-by-design menjadi referensi nasional kepatuhan UU PDP.
+**Nilai Strategis:** Riset menjawab kebutuhan SPKLU terjangkau, interoperabel, dan ramah grid. Integrasi solar hybrid + HHO MPPT menurunkan ketergantungan grid, sementara penggunaan charger OCPP komersial mempercepat adopsi tanpa perlu mengembangkan hardware charger dari nol. Edge-AI anonim membuka standar etis baru untuk IoT publik. Pipeline privacy-by-design menjadi referensi nasional kepatuhan UU PDP.
 
 ---
 
@@ -136,18 +136,18 @@ Kebaruan penelitian:
 
 Masalah utama yang dihadapi SPKLU AC 22kW saat ini adalah tidak adanya prediksi beban cerdas, ketergantungan penuh pada grid, serta potensi pelanggaran privasi pada sistem monitoring visual. Kerangka berpikir riset ini menghubungkan lima komponen kunci:
 
-1. **Solar Hybrid + HHO MPPT + IBC**: Panel surya + BESS sebagai sumber mandiri, dengan MPPT HHO untuk efisiensi energi maksimum dan Interleaved Buck Converter PI-FLC untuk fast charging efisien.
+1. **Solar Hybrid + HHO MPPT + Charger OCPP**: Panel surya + BESS sebagai sumber mandiri, dengan MPPT HHO untuk efisiensi energi maksimum dan charger AC 22kW OCPP komersial sebagai unit pengisian daya.
 2. **IoT-Edge untuk Prediksi Beban**: YOLOv8 dijalankan pada edge device (Jetson/RPi 5) untuk mendeteksi okupansi area parkir secara real-time, digunakan sebagai input prediksi beban SPKLU dan optimasi alokasi daya.
 3. **Pipeline Anonimisasi**: Seluruh data visual yang tertangkap kamera dianonimkan secara real-time (frame blurring, metadata-only) sebelum dikirim ke cloud, memastikan kepatuhan terhadap UU PDP tanpa mengorbankan fungsi prediktif.
 4. **Cloud Backend & TimescaleDB**: CSMS Go sebagai server manajemen charging, EMQX untuk broker MQTT, TimescaleDB untuk data time-series, dan Redis untuk caching, dengan Row-Level Security dan TOTP 2FA.
 5. **Potensi Deteksi Anomali Visual**: Tim memiliki pengalaman dalam pengembangan model deteksi berbasis machine learning/image processing yang dapat dieksplorasi untuk lapisan keamanan tambahan pada sistem monitoring SPKLU.
 
-Keterkaitan: Kamera → Edge AI YOLOv8 → Anonimisasi → Prediksi beban → EMS → IBC + HHO → SPKLU. Seluruh alur data dari sensor hingga cloud dirancang dengan prinsip privacy-by-design dan efisiensi energi end-to-end.
+Keterkaitan: Kamera → Edge AI YOLOv8 → Anonimisasi → Prediksi beban → EMS → Charger OCPP + HHO → SPKLU. Seluruh alur data dari sensor hingga cloud dirancang dengan prinsip privacy-by-design dan efisiensi energi end-to-end.
 
 ```mermaid
 flowchart LR
     A[Panel Surya + BESS] --> B[HHO MPPT]
-    B --> C[IBC PI-FLC]
+    B --> C[Charger OCPP AC 22kW]
     C --> D[SPKLU AC 22kW]
     E[Kamera] --> F[Edge AI YOLOv8]
     F --> G[Pipeline Anonimisasi]
@@ -165,14 +165,14 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 - **WP1 Arsitektur & Backend:** CSMS Go, EMQX WS→MQTT, PostgreSQL/TimescaleDB/Redis, RLS & TOTP 2FA
 - **WP2 Edge-AI & Anonimisasi:** YOLOv8 untuk deteksi okupansi, pipeline anonymisasi real-time (frame blurring, metadata-only), optimasi TensorRT/OpenVINO pada Jetson/RPi 5
 - **WP2a Deteksi Anomali Visual (Eksplorasi):** Studi awal potensi deteksi misleading visual pada sistem monitoring SPKLU berbasis machine learning/image processing, sebagai pengembangan riset lanjutan
-- **WP3 Integrasi Solar Hybrid + IBC + MPPT:** PV array 4-100 kWp bifacial, BESS LFP/NMC, IBC two-phase PI-FLC, MPPT HHO, hierarchical EMS tiga-level dengan ANN/LSTM untuk prediksi 15-60 menit
+- **WP3 Integrasi Solar Hybrid + Charger OCPP + MPPT:** PV array 4-100 kWp bifacial, BESS LFP/NMC, charger AC 22kW OCPP 1.6J komersial, MPPT HHO, hierarchical EMS tiga-level dengan ANN/LSTM untuk prediksi 15-60 menit
 - **WP4 Validasi Lab:** QoS 0/1/2, akurasi MeterValues, failover, uji beban 50 charger, audit keamanan & PDP, validasi kalibrasi sensor (metodologi Dewi et al., 2025)
 - **WP5 Pilot & Evaluasi:** Instalasi 3 unit mitra, monitoring real-time, kalibrasi revenue-share, SOP, diseminasi
 
-**Detail Metodologi Tahun 1:** Fokus desain arsitektur, firmware gateway, integrasi IBC-MPPT-YOLOv8, validasi lab. Data simulator OCPP, energy logger, log inferensi edge. Analisis: compliance OCPP 1.6J, packet loss/latency, MAPE prediksi, audit privasi, efisiensi konverter, efisiensi MPPT.
+**Detail Metodologi Tahun 1:** Fokus desain arsitektur, firmware gateway, integrasi charger OCPP-MPPT-YOLOv8, validasi lab. Data simulator OCPP, energy logger, log inferensi edge. Analisis: compliance OCPP 1.6J, packet loss/latency, MAPE prediksi, audit privasi, efisiensi MPPT.
 
 **Teknik Pengumpulan Data:** Telemetri charger, log inverter solar, metadata okupansi anonim, log inferensi edge.
-**Teknik Analisis:** MAPE <15%, latency <200ms, akurasi kWh ±1%, uptime ≥95%, efisiensi IBC >94%, MPPT >99%, verifikasi zero raw-image storage.
+**Teknik Analisis:** MAPE <15%, latency <200ms, akurasi kWh ±1%, uptime ≥95%, efisiensi sistem >94%, MPPT >99%, verifikasi zero raw-image storage.
 
 ---
 
@@ -185,14 +185,14 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | Luaran | Status Luaran Tahun 1 | Status Luaran Tahun 2 |
 |--------|----------------------|----------------------|
 | Jurnal Internasional (min. Q3) | 1 KTI under review | 1 KTI accepted + 1 KTI under review |
-| Kekayaan Intelektual | 1 draf Paten Sederhana (IBC + Hybrid EMS + Edge-AI) | 1 Paten Sederhana terdaftar di DJKI |
+| Kekayaan Intelektual | 1 draf Paten Sederhana (Hybrid EMS + Edge-AI + OCPP Bridge) | 1 Paten Sederhana terdaftar di DJKI |
 | Prototipe | TKT 4 (fungsional di lab) | TKT 6 (terpasang & beroperasi di 3 lokasi mitra) |
 
 **Indikator Kinerja Kegiatan Tahun 1:**
 | No | Indikator | Target |
 |----|-----------|--------|
-| 1 | KTI | 100% — 1 naskah jurnal Q3 under review (arsitektur OCPP-MQTT bridge + YOLOv8 anonim + IBC-HHO) |
-| 2 | KI | 100% — 1 draf klaim Paten Sederhana (metode prediksi beban berbasis okupansi edge + IBC + EMS) |
+| 1 | KTI | 100% — 1 naskah jurnal Q3 under review (arsitektur OCPP-MQTT bridge + YOLOv8 anonim + HHO MPPT) |
+| 2 | KI | 100% — 1 draf klaim Paten Sederhana (metode prediksi beban berbasis okupansi edge + OCPP bridge + EMS) |
 
 **Indikator Kinerja Kegiatan Tahun 2:**
 | No | Indikator | Target |
@@ -206,8 +206,8 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 **TAHUN/PERIODE 1**
 | No | Aktivitas | Deskripsi | Waktu |
 |----|-----------|-----------|-------|
-| 1 | Desain Arsitektur & Setup Infrastruktur | CSMS Go, EMQX, DB schema, algoritma hybrid load balancing, desain IBC + MPPT HHO | Bulan ke-1–3 |
-| 2 | Integrasi Multi-Protokol & IBC-MPPT | Bridge OCPP-WS & Modbus→MQTT, simulator, uji IBC (ripple, efisiensi), uji MPPT HHO | Bulan ke-4–6 |
+| 1 | Desain Arsitektur & Setup Infrastruktur | CSMS Go, EMQX, DB schema, algoritma hybrid load balancing, integrasi charger OCPP + MPPT HHO | Bulan ke-1–3 |
+| 2 | Integrasi Multi-Protokol & OCPP-MPPT | Bridge OCPP-WS & Modbus→MQTT, simulator, uji kompatibilitas charger OCPP, uji MPPT HHO | Bulan ke-4–6 |
 | 3 | Pengembangan Edge-AI & Anonimisasi | YOLOv8, pipeline metadata-only, optimasi TensorRT/OpenVINO, integrasi kamera | Bulan ke-5–7 |
 | 3a | Deteksi Anomali Visual (Eksplorasi) | Studi awal potensi deteksi misleading visual berbasis ML/image processing untuk monitoring SPKLU | Bulan ke-5–8 |
 | 4 | Smart EMS & Prediksi ANN/LSTM | Hierarchical EMS tiga-level, ANN/LSTM prediksi 15-60 menit, load balancing | Bulan ke-6–8 |
@@ -234,8 +234,8 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | 2. BESS LFP 48V 100Ah + BMS | Energy storage | 2 | 1 | [Harga] | set | [Isi] | 100% | 0% |
 | 3. NVIDIA Jetson / Raspberry Pi 5 + Kamera | Edge-AI YOLOv8 | 3 | 1 | [Harga] | set | [Isi] | 100% | 0% |
 | 4. ESP32 Dev Kit + Sensor PZEM-004T + DHT11 | IoT gateway & metering | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 5. Komponen IBC (Mosfet, Induktor, Driver) | Fast charger | 3 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 6. Enclosure IP65 + Kabel Power | Integrasi fisik | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
+| 5. Charger AC 22kW OCPP 1.6J Komersial | Unit charging OCPP siap pakai | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
+| 6. Enclosure IP65 + Kabel Power + Type 2 Socket | Integrasi fisik & konektor | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
 | **Sub Total A.1** | | | | | | | **[Isi]** | **0%** |
 | A.2 Pengujian & Validasi | Laporan uji | | | | | | | |
 | 1. Sewa Cloud Server (Fly.io/Supabase/EMQX) | Hosting CSMS & time-series | 12 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
@@ -380,11 +380,11 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 ### 1. Metadata
 | Item | Isian |
 |------|-------|
-| **1.1 Judul Riset** | Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia |
+| **1.1 Judul Riset** | Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT dan Charger OCPP Komersial untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia |
 | **1.2 Durasi Riset** | Mulai: 01-01-2026 — Akhir: 31-12-2027 |
 | **1.3 Ketua Tim Riset** | nama: Prof. Dr. Subiyanto, ST, MT; afiliasi: Universitas Negeri Semarang; e-mail: subiyanto@mail.unnes.ac.id; no HP: [No. HP] |
 | **1.4 Subjek Riset** | Engineering, Computer and Information Sciences |
-| **1.5 Deskripsi Riset** | Riset mengembangkan prototipe SPKLU AC 22kW berbasis solar hybrid dengan prediksi beban YOLOv8, pipeline anonimisasi edge-AI, MPPT HHO, dan IBC fast charging untuk meningkatkan TKT 3→6 dalam 2 tahun |
+| **1.5 Deskripsi Riset** | Riset mengembangkan prototipe SPKLU AC 22kW berbasis solar hybrid dengan prediksi beban YOLOv8, pipeline anonimisasi edge-AI, MPPT HHO, dan charger OCPP komersial untuk meningkatkan TKT 3→6 dalam 2 tahun |
 | **1.6 Sumber Dana Riset** | RIIM Kompetisi — BRIN/LPDP |
 
 ### 2. Tipe Data
@@ -417,9 +417,9 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 
 | No | Nama | Peran dalam Riset | Kompetensi Pendukung | URL Scopus |
 |----|------|-------------------|---------------------|------------|
-| 1 | Prof. Dr. Subiyanto, ST, MT | Ketua; perancang IBC PI-FLC, MPPT HHO, arsitektur sistem, integrasi power electronics dan AI | Intelligent Systems Electrical Engineering, Power Electronics, AI; Guru Besar Teknik Elektro UNNES | [Scopus] |
+| 1 | Prof. Dr. Subiyanto, ST, MT | Ketua; perancang arsitektur sistem, integrasi MPPT HHO, solar hybrid, dan charger OCPP; pengawasan integrasi edge-AI dan power electronics | Intelligent Systems Electrical Engineering, Power Electronics, AI; Guru Besar Teknik Elektro UNNES | [Scopus] |
 | 2 | Bagaskoro Saputro, S.Kom., M.Kom. | Anggota; pengembangan backend CSMS Go, EMQX broker, REST API, TimescaleDB/PostgreSQL, Row-Level Security, TOTP 2FA | Embedded Systems, IoT Architecture, Backend Development, Cybersecurity; Dosen BINUS University | [Scopus] |
-| 3 | Mario Norman Syah, S.T., M.T. | Anggota; perancangan BESS, sizing PV, integrasi MPPT HHO dan IBC, uji lab power converter | Power Electronics, Photovoltaic Systems, Energy Storage | [Scopus] |
+| 3 | Mario Norman Syah, S.T., M.T. | Anggota; perancangan BESS, sizing PV, integrasi MPPT HHO dan charger OCPP, uji lab power converter | Power Electronics, Photovoltaic Systems, Energy Storage | [Scopus] |
 | 4 | Abdurrakhman Hamid Al-Azhari | Anggota; implementasi firmware ESP32, kalibrasi sensor, uji coba komunikasi OCPP/MQTT | IoT, Embedded Systems, Sensor Integration | [Scopus] |
 | 5 | Adhe Lingga Dewi, S.Si., M.Si. | Anggota; validasi sensor dan kalibrasi metode pengukuran, analisis data time-series metrik utilisasi | IoT, Sensors, ANN, Computational Physics; Dosen BINUS University | [Scopus] |
 | 6 | Yashella Tirana, S.Kom. | Anggota; analisis faktor kepuasan pengguna dan evaluasi UX dashboard MyPLN, kontribusi pada studi awal deteksi anomali visual berbasis ML/image processing | Information Systems, User Satisfaction, ML, Image Processing; Dosen BINUS University | [Scopus] |
@@ -442,7 +442,7 @@ Yang bertanda tangan di bawah ini:
 
 Dengan ini menyatakan bahwa saya aktif menjalankan tugas kedinasan sebagai Dosen/Peneliti di Universitas Negeri Semarang dan bersedia melaksanakan kegiatan riset yang berjudul:
 
-**"Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT, Interleaved Buck Converter, dan Fast Charging untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia"**
+**"Pengembangan Sistem IoT-Edge Terintegrasi untuk SPKLU AC 22kW Berbasis Solar Hybrid dan Prediksi Beban Cerdas Menggunakan YOLOv8 dengan Pipeline Anonimisasi: Integrasi HHO MPPT dan Charger OCPP Komersial untuk Mendukung Ekosistem EV Rendah Karbon di Indonesia"**
 
 sesuai dengan proposal yang diajukan dalam skema RIIM Kompetisi BRIN.
 

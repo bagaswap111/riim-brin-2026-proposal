@@ -236,13 +236,20 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | A.1 Prototipe & Pengembangan | Prototipe lab TKT 4 | | | | | | | |
 | 1. Panel Surya Bifacial 500Wp + Inverter Hybrid | Integrasi solar PV | 4 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
 | 2. BESS LFP 48V 100Ah + BMS | Energy storage | 2 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 3. ESP32 Dev Kit + Modul 4G LTE + Sensor Arus/Tegangan | IoT gateway & metering | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
-| 4. Tablet Android 10" Industrial | Kiosk display & interaksi | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
-| 5. Komponen Power (MCB, Kontaktor) + Enclosure IP65 | Sistem daya & integrasi fisik | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
+| 3. MPPT DC-DC Buck/Boost Converter 2kW | Konverter MPPT HHO | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
+| 4. ESP32 Dev Kit + Modul 4G LTE (SIM7600) | IoT gateway & komunikasi | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
+| 5. Sensor Arus/Tegangan (PZEM-004T, ACS712) + Pyranometer | Power metering & iradiasi | 5 | 1 | [Harga] | set | [Isi] | 100% | 0% |
+| 6. PCB Fabrication (ESP32 + Relay + Sensor Interface) | Board integrasi sistem | 10 | 1 | [Harga] | pcs | [Isi] | 100% | 0% |
+| 7. Tablet Android 10" Industrial (4GB/64GB) | Kiosk display & interaksi | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
+| 8. Komponen Power (MCB 20A, Kontaktor, Surge Arrester, Step-Down 12V/5A) + Enclosure IP65 | Sistem daya & proteksi | 3 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
+| 9. Type 2 EV Socket + Kabel Charging 5m | Konektor SPKLU | 3 | 1 | [Harga] | set | [Isi] | 100% | 0% |
+| 10. Modul CAN Bus + Isolator (BMS Communication) | Komunikasi BMS–ESP32 | 3 | 1 | [Harga] | set | [Isi] | 100% | 0% |
 | **Sub Total A.1** | | | | | | | **[Isi]** | **0%** |
 | A.2 Pengujian & Validasi | Laporan uji | | | | | | | |
-| 1. Sewa Cloud Server (Fly.io/Supabase) | Hosting backend & MyPLN API | 12 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
-| 2. Sewa Simulator OCPP & Solar Testbed | Validasi protokol & efisiensi MPPT | 6 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
+| 1. Sewa Cloud Server (Fly.io/Supabase/EC2) | Hosting backend & MyPLN API | 12 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
+| 2. Sewa Simulator OCPP & Solar Array Simulator | Validasi protokol & MPPT | 6 | 1 | [Harga] | bulan | [Isi] | 100% | 0% |
+| 3. Konsumtif (Kabel, Konektor, Solder, Komponen Elektronik) | Perakitan & troubleshooting | 1 | 1 | [Harga] | paket | [Isi] | 100% | 0% |
+| 4. Biaya Uji Lab (SNI, Keselamatan Listrik) | Sertifikasi prototipe | 3 | 1 | [Harga] | unit | [Isi] | 100% | 0% |
 | **Sub Total A.2** | | | | | | | **[Isi]** | **0%** |
 | **Sub Total A** | | | | | | | **[Isi]** | **0%** |
 | **B. Honor Tenaga Lapangan** | Instalasi & monitoring | 72 | 1 | 150.000 | OH | [Isi] | 100% | 0% |
