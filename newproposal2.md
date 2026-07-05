@@ -7,8 +7,9 @@
 1. Bagaskoro Saputro, S.Kom., M.Kom. — Ilmu Komputer / IoT dan Sistem Cerdas (BINUS University)
 2. Mario Norman Syah, S.T., M.T. — Teknik Elektro / Power Electronics dan Konversi Energi
 3. Adhe Lingga Dewi, S.Si., M.Si. — Ilmu Komputer / IoT dan Sensor
-4. Yashella Tirana, S.Kom. — Information Systems / User Experience dan Sistem Informasi (BINUS University)
-5. Dr. Turnad Lenggo Ginta — Teknik Mesin / Kebijakan Energi
+4. Abdurrakhman Hamid Al-Azhari — Teknik Elektro / Embedded System dan Power Electronics (UNNES)
+5. Yashella Tirana, S.Kom. — Information Systems / User Experience dan Sistem Informasi (BINUS University)
+6. Dr. Turnad Lenggo Ginta — Teknik Mesin / Kebijakan Energi
 
 **NAMA UNIT KERJA – INSTANSI PENGUSUL:** Universitas Negeri Semarang (UNNES)
 **BADAN RISET DAN INOVASI NASIONAL**
@@ -37,8 +38,9 @@
     | 1 | Bagaskoro Saputro, S.Kom., M.Kom. | [NIK] | BINUS University |
     | 2 | Mario Norman Syah, S.T., M.T. | [NIK] | UNNES |
     | 3 | Adhe Lingga Dewi, S.Si., M.Si. | [NIK] | BINUS University |
-    | 4 | Yashella Tirana, S.Kom. | [NIK] | BINUS University |
-    | 5 | Dr. Turnad Lenggo Ginta | [NIP] | BRIN / OR Energi |
+    | 4 | Abdurrakhman Hamid Al-Azhari | [NIK] | UNNES |
+    | 5 | Yashella Tirana, S.Kom. | [NIK] | BINUS University |
+    | 6 | Dr. Turnad Lenggo Ginta | [NIP] | BRIN / OR Energi |
 4. **Pendanaan** :
    | No | Uraian | BRIN/LPDP (Tahun 1) | BRIN/LPDP (Tahun 2) | Sharing Mitra (Tahun 1) | Sharing Mitra (Tahun 2) | Total |
    |---|---|---|---|---|---|---|
@@ -278,7 +280,20 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Email** | mario.norman@mail.unnes.ac.id |
 | **Publikasi Utama (2024-2026)** | IBC Fast Charger (JAMRIS 2026), HHO MPPT (ISMEE 2025, DOI: 10.1109/ISMEE68179.2025.11473059), Microgrid Optimization (IEEE IES 2025), PID IBC (IEEE ICT-PEP 2024), Novel High Gain SEPIC (ICT-PEP 2024), Interleaved Bidirectional DC-DC Converter (ICPEA 2022), Fast MPPT Dynamic Scaling P&O (2025), Techno-economic Feasibility Study (Techné 2025) |
 
-### 4. Adhe Lingga Dewi, S.Si., M.Si. — Anggota Periset
+### 4. Abdurrakhman Hamid Al-Azhari — Anggota Periset
+| Item | Detail |
+|------|--------|
+| **Institusi** | Universitas Negeri Semarang (UNNES) |
+| **Program Studi** | Pendidikan Teknik Elektro, Fakultas Teknik |
+| **Bidang Keahlian** | Electrical Engineering, Embedded System, IC Design, RF Design, Microelectronics, Power Electronics |
+| **S1** | Pendidikan Teknik Elektro — Universitas Negeri Semarang (UNNES) |
+| **SINTA ID** | 6869198 |
+| **Scopus** | 3 articles, H-Index 2 |
+| **Google Scholar** | 15 articles, H-Index 3 |
+| **Email** | abdurrakhman.hamid@mail.unnes.ac.id |
+| **Publikasi Utama (2024-2026)** | Co-author IBC Fast Charger (JAMRIS 2026); Co-author Microgrid Karimunjawa (IEEE IES 2025); Co-author BLDC Predictive Control (ICVEE 2024) |
+
+### 5. Adhe Lingga Dewi, S.Si., M.Si. — Anggota Periset
 | Item | Detail |
 |------|--------|
 | **Institusi** | BINUS University |
@@ -292,7 +307,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Email** | adhe.dewi@binus.ac.id |
 | **Publikasi Utama (2024-2026)** | Smart Air Monitoring IoT ESP32 (Procedia CS 2024, DOI: 10.1016/j.procs.2024.10.308, cited 22 — corresponding author); Sensor Calibration MQ-135/8 (Eng. Res. Express 2025 — first author); ANN Weather Prediction (ICIMTech 2024 — first author); Workload & Stress Monitoring IoT GSR (Procedia CS 2025); #DEBITAAPPS ML Diabetes (E3S 2026 — first author); Breast Cancer DNN (AIP 2026) |
 
-### 5. Yashella Tirana, S.Kom. — Anggota Periset
+### 6. Yashella Tirana, S.Kom. — Anggota Periset
 | Item | Detail |
 |------|--------|
 | **Institusi** | BINUS University |
@@ -304,7 +319,7 @@ Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapan
 | **Email** | yashella.tirana@binus.ac.id |
 | **Publikasi Utama (2023-2026)** | Factors on Mobile App User Satisfaction (CommIT Journal 2023, cited 8); Model Deteksi Misleading Visual Review (Hibah BINUS 2026) |
 
-### 6. Ir. Turnad Lenggo Ginta, ST, MT, PhD — Anggota Periset
+### 7. Ir. Turnad Lenggo Ginta, ST, MT, PhD — Anggota Periset
 | Item | Detail |
 |------|--------|
 | **Institusi** | Badan Riset dan Inovasi Nasional (BRIN) |
