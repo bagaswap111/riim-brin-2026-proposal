@@ -2,6 +2,8 @@
 
 **Affiliasi:** Computer Science Department, School of Computer Science, Bina Nusantara University (BINUS), Kampus Semarang  
 **SINTA ID:** 6838447  
+**S1:** Fisika — Universitas Negeri Semarang (UNNES)  
+**S2:** Ilmu Komputer — Universitas Diponegoro (UNDIP)  
 **Research Fields:** Internet of Things, Sensors, Artificial Neural Network, Computational Physics, Photonic  
 **Scopus:** 12 articles, H-Index 3 | **Google Scholar:** 46 articles, H-Index 5 | **WoS:** 3 articles, H-Index 2
 
@@ -52,7 +54,7 @@
 | **Authors** | **Dewi A.L.**, Adi C.G.S., Prasetyo A. |
 | **Year** | 2025 |
 | **Source** | *Engineering Research Express* |
-| **DOI** | [10.1088/2631-8695/adbcc6](https://doi.org/10.1088/2631-8695/adbcc6) (asumsi — cek DOI) |
+| **DOI** | [10.1088/2631-8695/adbcc6](https://doi.org/10.1088/2631-8695/adbcc6) |
 | **Quartile** | Q3 |
 | **Citations** | 2 |
 | **Author Order** | 1 of 3 (First Author) |

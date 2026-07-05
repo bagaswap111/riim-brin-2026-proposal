@@ -244,7 +244,7 @@ Key findings for off-grid island microgrids:
 
 8. Aprilianto, R.A., **Syah, M.N.**, & Anita, N. (2025). Techno-economic Feasibility Study of Renewable Energy Power Generation: A Case Study in Sumba Jaya Area, East Nusa Tenggara Province, Indonesia. *Techné: Jurnal Ilmiah Elektroteknika*, 24(1), 43-54.
 
-9. **Syah, M.N.**, Firmansyah, E., & Utomo, D.R. (2022). Interleaved Bidirectional DC-DC Converter Operation Strategies and Problem Challenges: An Overview. *2022 IEEE International Conference in Power Engineering Application (ICPEA)*, 1-6. https://doi.org/10.1109/ICPEA.2022.xxxxxx
+9. **Syah, M.N.**, Firmansyah, E., & Utomo, D.R. (2022). Interleaved Bidirectional DC-DC Converter Operation Strategies and Problem Challenges: An Overview. *2022 IEEE International Conference in Power Engineering Application (ICPEA)*, 1-6. https://doi.org/10.1109/ICPEA53519.2022.9744670
 
 ### International References
 

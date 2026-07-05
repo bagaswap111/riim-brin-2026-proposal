@@ -1,7 +1,9 @@
 # Bagaskoro Saputro — Publications Related to Hybrid Solar / EV Charging / Energy
 
-**Affiliation:** Universitas Negeri Semarang (UNNES) & BINUS University  
-**Verified email:** mail.unnes.ac.id  
+**Affiliation:** BINUS University  
+**S1:** Elektronika dan Instrumentasi — Universitas Gadjah Mada (UGM)  
+**S2:** Ilmu Komputer — Universitas Gadjah Mada (UGM)  
+**Verified email:** bagaskoro.saputro@binus.ac.id  
 **Google Scholar:** signal processing, machine learning, distributed system, audio engineering, electric vehicle  
 **Citations:** 3 | **h-index:** 1
 
