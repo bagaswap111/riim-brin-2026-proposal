@@ -158,6 +158,148 @@ flowchart LR
     D --> I
 ```
 
+![Diagram Kerangka Berpikir](diagrams/newproposal2_diagram_1.png)
+
+### Arsitektur Sistem
+
+```mermaid
+flowchart TB
+    subgraph Sumber["Sumber Daya"]
+        PV[Panel Surya Bifacial]
+        MPPT[HHO MPPT Controller]
+        BESS[BESS LFP/NMC]
+        GRID[Grid PLN]
+        PV --> MPPT --> BESS
+        BESS -.-> GRID
+    end
+
+    subgraph Charger["Charger Unit"]
+        OCPP[Charger AC 22kW\nOCPP 1.6J Komersial]
+        METER[MeterValues OCPP]
+        PROT[MCB + Proteksi]
+        OCPP --> METER --> PROT
+    end
+
+    subgraph Edge["Edge AI System"]
+        CAM[Kamera IP]
+        JET[NVIDIA Jetson / RPi 5]
+        YOLO[YOLOv8 Deteksi\nOkupansi]
+        ANON[Pipeline Anonimisasi\nFrame Blurring]
+        EMS[Smart EMS\nANN/LSTM]
+        CAM --> JET
+        JET --> YOLO --> ANON --> EMS
+    end
+
+    subgraph Gateway["IoT Bridge"]
+        ESP[ESP32 Gateway]
+        BRIDGE[Bridge OCPP-WS\n→ MQTT]
+        MODBUS[Modbus Inverter]
+        ESP --> BRIDGE
+        ESP --> MODBUS
+    end
+
+    subgraph Cloud["Cloud Backend"]
+        EMQX[EMQX MQTT Broker]
+        CSMS[CSMS Go]
+        DB[(TimescaleDB +\nPostgreSQL)]
+        RLS[Row-Level Security\n+ TOTP 2FA]
+        EMQX --> CSMS --> DB
+        DB --> RLS
+    end
+
+    Sumber --> Charger
+    Charger --> Gateway
+    Edge --> Gateway
+    Gateway --> Cloud
+    EMS --> Charger
+```
+
+![Arsitektur Sistem](diagrams/newproposal2_diagram_2.png)
+
+### Alur Data
+
+```mermaid
+flowchart LR
+    subgraph Sensor["Data Sources"]
+        S1[Kamera IP\n30fps]
+        S2[Charger OCPP\nTelemetri]
+        S3[Inverter Solar\nModbus]
+        S4[BMS BESS\nCAN Bus]
+    end
+
+    subgraph EdgeProc["Edge Processing"]
+        E1[YOLOv8 Inference\nFrame 1fps]
+        E2[Anonimisasi\nMetadata-only]
+        E3[Prediksi Okupansi\n15-60 menit]
+        E4[Metadata JSON\nbbox+ts+durasi]
+        S1 --> E1 --> E2 --> E4
+    end
+
+    subgraph Secure["Privacy Boundary"]
+        P1[No raw image\nstored/transmitted]
+        P2[Zero biometric\nstorage]
+        P3[Frame blurring\n100% edge]
+    end
+
+    subgraph CloudProc["Cloud Processing"]
+        C1[MQTT + OCPP\nBridge]
+        C2[CSMS Core]
+        C3[TimescaleDB\nTime-Series]
+        C4[ANN/LSTM\nPrediksi Beban]
+        C5[Load Balancing\nSolar/Grid]
+    end
+
+    E4 --> C1
+    S2 --> C1
+    S3 --> C1
+    S4 --> C1
+    C1 --> C2 --> C3
+    C3 --> C4 --> C5
+```
+
+![Alur Data](diagrams/newproposal2_diagram_3.png)
+
+### Peta Jalan 24 Bulan
+
+```mermaid
+gantt
+    title Peta Jalan Riset — IoT-Edge + YOLOv8 + SPKLU Solar Hybrid
+    dateFormat  YYYY-MM
+    axisFormat  %Y-%m
+    tickInterval 3month
+
+    section Tahun 1 (TKT 3→4)
+    WP1 Arsitektur & Backend CSMS      :a1, 2026-01, 90d
+    WP2 Edge-AI YOLOv8 & Anonim        :a2, 2026-05, 90d
+    WP2a Deteksi Anomali (Eksplorasi)   :a3, 2026-05, 120d
+    WP3 Integrasi Charger OCPP + MPPT   :a4, 2026-02, 150d
+    WP4 Validasi Lab                    :a5, 2026-09, 90d
+    Publikasi & Paten T1               :milestone, 2026-12, 0d
+
+    section Tahun 2 (TKT 5→6)
+    Persiapan Pilot                    :b1, 2027-01, 60d
+    Instalasi 3 Unit                   :b2, 2027-03, 120d
+    Monitoring & Kalibrasi             :b3, 2027-07, 90d
+    Evaluasi & SOP                     :b4, 2027-10, 60d
+    Diseminasi T2                      :milestone, 2027-12, 0d
+```
+
+![Peta Jalan 24 Bulan](diagrams/newproposal2_diagram_4.png)
+
+### Ketergantungan Work Package
+
+```mermaid
+flowchart LR
+    WP1[WP1: Arsitektur\n& Backend CSMS] --> WP2[WP2: Edge-AI\nYOLOv8 & Anonim]
+    WP1 --> WP3[WP3: Integrasi Charger\nOCPP + MPPT HHO]
+    WP2 --> WP2a[WP2a: Deteksi\nAnomali Visual]
+    WP2 --> WP4[WP4: Validasi\nLab]
+    WP3 --> WP4
+    WP4 --> WP5[WP5: Pilot\n& Evaluasi]
+```
+
+![Ketergantungan Work Package](diagrams/newproposal2_diagram_5.png)
+
 ## METODOLOGI
 Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapangan terbatas.
 

@@ -162,6 +162,138 @@ flowchart LR
     F --> H[Tablet Kiosk\nIklan Digital]
 ```
 
+![Diagram Kerangka Berpikir](diagrams/newproposal1_diagram_1.png)
+
+### Arsitektur Sistem
+
+```mermaid
+flowchart TB
+    subgraph Sumber["Sumber Daya"]
+        PV[Panel Surya Bifacial 500Wp]
+        MPPT[MPPT HHO Controller]
+        BESS[BESS LFP 48V 100Ah]
+        GRID[Grid PLN]
+        PV --> MPPT --> BESS
+        BESS -.->|Saat malam| GRID
+    end
+
+    subgraph SPKLU["Unit SPKLU"]
+        INV[Inverter Hybrid]
+        CH[SPKLU AC 22kW]
+        METER[Sensor PZEM-004T]
+        PROT[MCB + Surge Arrester]
+        INV --> CH --> METER --> PROT
+    end
+
+    subgraph Gateway["IoT Gateway"]
+        ESP[ESP32]
+        OCPP[OCPP 1.6J]
+        MQTT[MQTT Client]
+        LTE[4G LTE Cat-4]
+        ESP --> OCPP
+        ESP --> MQTT
+        ESP --> LTE
+    end
+
+    subgraph Cloud["Cloud Backend"]
+        EMQX[EMQX Broker]
+        API[CSMS Go REST API]
+        DB[(PostgreSQL + TimescaleDB)]
+        EMQX --> API --> DB
+    end
+
+    subgraph User["Layanan"]
+        MYPLN[MyPLN API]
+        TABLET[Tablet Kiosk Android]
+        CHAT[Chatbot Helpdesk]
+    end
+
+    Sumber --> SPKLU
+    SPKLU --> Gateway
+    LTE --> EMQX
+    API --> MYPLN
+    API --> TABLET
+    API --> CHAT
+```
+
+![Arsitektur Sistem](diagrams/newproposal1_diagram_2.png)
+
+### Alur Data
+
+```mermaid
+flowchart LR
+    subgraph Input["Data Sources"]
+        D1[Iradiasi Solar]
+        D2[Tegangan/Arus PV]
+        D3[SoC BESS]
+        D4[MeterValues OCPP]
+        D5[Transaksi MyPLN]
+    end
+
+    subgraph Process["Edge & Cloud Processing"]
+        P1[ESP32 Firmware\nSampling 1s]
+        P2[MQTT Publish\nJSON]
+        P3[CSMS Core\nOCPP Handling]
+        P4[TimescaleDB\nTime-Series]
+        P5[ANN/LSTM\nPrediksi Beban]
+    end
+
+    subgraph Output["Output"]
+        O1[Load Balancing\nSolar/Grid]
+        O2[Billing MyPLN]
+        O3[Dashboard Admin]
+        O4[Iklan Digital\nTablet]
+    end
+
+    Input --> P1 --> P2 --> P3 --> P4
+    P4 --> P5 --> O1
+    P3 --> O2
+    P4 --> O3
+    P3 --> O4
+```
+
+![Alur Data](diagrams/newproposal1_diagram_3.png)
+
+### Peta Jalan 24 Bulan
+
+```mermaid
+gantt
+    title Peta Jalan Riset — SPKLU Solar Hybrid + MyPLN
+    dateFormat  YYYY-MM
+    axisFormat  %Y-%m
+    tickInterval 3month
+
+    section Tahun 1 (TKT 3→4)
+    WP1 Solar Hybrid & MPPT HHO       :a1, 2026-01, 120d
+    WP2 IoT Gateway & Cloud           :a2, 2026-03, 150d
+    WP2a UX MyPLN & Chatbot           :a3, 2026-05, 120d
+    WP3 Smart EMS & Prediksi          :a4, 2026-07, 90d
+    WP4 Validasi Lab                  :a5, 2026-09, 90d
+    Publikasi & Paten T1              :milestone, 2026-12, 0d
+
+    section Tahun 2 (TKT 5→6)
+    Persiapan Pilot                   :b1, 2027-01, 60d
+    Instalasi 3 Unit                  :b2, 2027-03, 90d
+    Monitoring & Kalibrasi            :b3, 2027-06, 120d
+    Evaluasi & SOP                    :b4, 2027-10, 60d
+    Diseminasi & Publikasi T2         :milestone, 2027-12, 0d
+```
+
+![Peta Jalan 24 Bulan](diagrams/newproposal1_diagram_4.png)
+
+### Ketergantungan Work Package
+
+```mermaid
+flowchart LR
+    WP1[WP1: Solar Hybrid +\nMPPT HHO] --> WP3[WP3: Smart EMS &\nPrediksi Beban]
+    WP2[WP2: IoT Gateway\n& Cloud] --> WP4[WP4: Validasi Lab\n& Kalibrasi]
+    WP2 --> WP2a[WP2a: UX MyPLN\n& Chatbot]
+    WP3 --> WP4
+    WP4 --> WP5[WP5: Pilot &\nDiseminasi]
+```
+
+![Ketergantungan Work Package](diagrams/newproposal1_diagram_5.png)
+
 ## METODOLOGI
 Pendekatan: Research & Development Iteratif dengan validasi teknis dan uji lapangan terbatas.
 
